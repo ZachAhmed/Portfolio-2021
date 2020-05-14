@@ -1,10 +1,10 @@
 import React from "react"
 
-
-export default function Project({ children }) {
+export default function Project(props) {
   return (
     <div style={{ margin: `10px`, padding: `10px`, backgroundColor:'red'}}>
-    { children }
+      <h1 className="font-serif text-2xl text-white">{props.pTitle}</h1>
+      <p className="font-sans-serif text-xl mt-3 text-white">{props.pDescription}</p>
     </div>
   )
 }
