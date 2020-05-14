@@ -11,9 +11,9 @@ export default function Index(){
                 <container className="col-span-10 row-start-2 ">
                     <h1 className="text-center text-5xl font-serif text-blue">Zachary Ahmed</h1>
                     <p className="text-center text-3xl font-sans-serif">The person person</p>
-                     <Link to='/about' className="text-2xl font-serif text-blue row-start-5">About</Link>
-                     <Link to='/about' className="text-2xl font-serif text-blue row-start-5">Contact</Link>
                 </container>
+                <Link to='/about' className="text-3xl font-serif text-blue text-center row-start-5 mt-10 ml-10">About</Link>
+                <Link to='/about' className="text-3xl font-serif text-blue text-center col-start-10 row-start-5 mt-10 mr-10">Contact</Link>
             </div>
             <div className="bg-red">
 
