@@ -27,6 +27,18 @@ export default function Index(){
                 <div className="h-20 col-start-1 col-span-2 md:col-start-2 col-span-3 row-start-2 lg:col-start-4 xl:col-start-6" data-sal="slide-up" data-sal-delay="30" data-sal-easing="easeInOutExpo">
                     <Project pTitle="Project 2" pDescription="My Second Project"/>
                 </div>
+
+                <div className="h-20 col-start-1 col-span-2 md:col-start-2 col-span-3 row-start-2 lg:col-start-4 xl:col-start-6" data-sal="slide-up" data-sal-delay="30" data-sal-easing="easeInOutExpo">
+                    <Project pTitle="Project 3" pDescription="My Third Project"/>
+                </div>
+
+                <div className="h-20 col-start-1 col-span-2 md:col-start-2 col-span-3 row-start-2 lg:col-start-4 xl:col-start-6" data-sal="slide-up" data-sal-delay="30" data-sal-easing="easeInOutExpo">
+                    <Project pTitle="Project 4" pDescription="My Fourth Project"/>
+                </div>
+
+                <div className="h-20 col-start-1 col-span-2 md:col-start-2 col-span-3 row-start-2 lg:col-start-4 xl:col-start-6" data-sal="slide-up" data-sal-delay="30" data-sal-easing="easeInOutExpo">
+                    <Project pTitle="Project 5" pDescription="My Fifth Project"/>
+                </div>
             </div>
         </BigDiv>
     </Layout> 
