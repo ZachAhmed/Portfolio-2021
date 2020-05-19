@@ -9,7 +9,3 @@ body{
 ::-webkit-scrollbar{
     display:none;
 }
-
-.border{
-    border-top: 35px solid blue;
-}
