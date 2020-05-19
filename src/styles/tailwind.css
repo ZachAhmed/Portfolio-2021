@@ -10,10 +10,6 @@ body{
     display:none;
 }
 
-.border-40{
-    border-width: 45px;
-}
-
-.h-100{
-    height: 100vh;
+.border{
+    border-top: 35px solid blue;
 }
