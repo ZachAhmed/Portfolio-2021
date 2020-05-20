@@ -8,10 +8,10 @@ module.exports = {
     },
 
     colors: {
-      blue: '#0000FF',
+      blue: '#112378',
       red: '#FF0000',
       orange: '#FFA500',
-      white:'#FFF'
+      white:'#FBECCF',
     },
     
     extend: {},

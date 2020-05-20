@@ -7,18 +7,17 @@ import sal from "sal.js"
 
 sal();
 
-// const element = document.querySelector('.animated');
-
-// element.addEventListener('sal:out', ({ detail }) => {
-//   console.log('entering', detail.target);
-// });
+document.addEventListener('sal:out', ({ detail }) => {
+    console.log('exiting', detail.target);
+    if(detail.target == '');
+  });
 
 export default function Index(){
     return(
     <div>
         <Grid>
             <Header id='top'></Header>
-            <div className='text-left ml-10 mt-10 col-start-1 col-span-3 row-start-2'>
+            <div className='text-left ml-10 mt-10 col-start-1 col-span-3 row-start-2 text-white'>
                 <h1 className='font-serif text-4xl animated'>Zach Ahmed</h1>
                 <h3 className='font-sans-serif text-xl mt-5'>A person person</h3>
             </div>
@@ -44,9 +43,10 @@ export default function Index(){
                 <Project pTitle='Cannabis Laws' pDescription='Data-Visualization project aimed at informing the public about cannabis bylaws in Montreal following legalization.'/>
             </Link>
 
-            <Link to='/#top' className='font-serif text-2xl row-start-6 w-screen text-center my-20 text-blue' data-sal="slide-up" data-sal-delay="0" data-sal-easing="ease" data-sal-duration="100">Back to top</Link>
+            <Link to='/#top' className='font-serif text-2xl row-start-6 w-screen text-center my-20 text-white' data-sal="slide-up" data-sal-delay="0" data-sal-easing="ease-in-out-quad" data-sal-duration="150">Back to top</Link>
         </Grid>
     </div>
 
     )
 }
+
