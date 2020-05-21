@@ -6,15 +6,15 @@ import Grid from "../components/grid"
 import Header from "../components/header"
 import { Helmet } from "react-helmet"
 
-
 export default function Index(){
     return(
         <Layout>
             <Helmet>
                 <script src={withPrefix('script.js')} type="text/javascript" />
             </Helmet>
+            
             <Grid>
-                <Header id='top'></Header>
+                <Header></Header>
                 <div className='text-left ml-10 mt-10 col-start-1 col-span-3 row-start-2 text-white'>
                     <h1 className='font-serif text-4xl animated' data-sal="fade" data-sal-duration="0">Zach Ahmed</h1>
                     <h3 className='font-sans-serif text-xl mt-5'>A person person</h3>
@@ -41,7 +41,7 @@ export default function Index(){
                     <Project pTitle='Cannabis Laws' pDescription='Data-Visualization project aimed at informing the public about cannabis bylaws in Montreal following legalization.'/>
                 </Link>
 
-                <Link to='/#top' className='font-serif text-2xl row-start-6 w-screen text-center my-20 text-white' data-sal="slide-up" data-sal-delay="0" data-sal-easing="ease-in-out-quad" data-sal-duration="150">Back to top</Link>
+                <Link to='/#top' className='font-serif text-2xl row-start-6 w-screen text-center my-20 text-white' data-sal="slide-up" data-sal-delay="0" data-sal-easing="ease-in-out-quad" data-sal-duration="200">Back to top</Link>
             </Grid>
         </Layout>       
     )
