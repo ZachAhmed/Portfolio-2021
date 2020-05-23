@@ -9,3 +9,7 @@ body{
 ::-webkit-scrollbar{
     display:none;
 }
+
+.min-h-205{
+    min-height: 205px;
+}
