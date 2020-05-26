@@ -38,13 +38,13 @@ module.exports = {
         background_color: `#663399`,
         theme_color: `#663399`,
         display: `minimal-ui`,
-        icon: `src/images/gatsby-icon.png`, // This path is relative to the root of the site.
+        icon: `src/images/myfavicon.png`, // This path is relative to the root of the site.
       },
     },
     {
       resolve: `gatsby-plugin-scroll-reveal`,
       options: {
-        threshold: .1, // Percentage of an element's area that needs to be visible to launch animation
+        threshold: .5, // Percentage of an element's area that needs to be visible to launch animation
         once: false, // Defines if animation needs to be launched once
         disable: false, // Flag for disabling animations
         
