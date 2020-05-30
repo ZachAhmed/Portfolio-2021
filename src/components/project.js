@@ -7,9 +7,9 @@ import Img from 'gatsby-image'
 function Project (props ) {
   const data = useStaticQuery(graphql`
     query Images {
-      images: file(relativePath: {eq: "name.png"}) {
+      images: file(relativePath: {eq: "mypiece/login_wires.png"}) {
         childImageSharp {
-          fixed (width: 400) {
+          fixed (width: 150) {
             ...GatsbyImageSharpFixed
           }
           fluid {
