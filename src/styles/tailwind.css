@@ -34,10 +34,10 @@ body{
 
 .un {
     display: inline-block;
-    padding-bottom:2px;
-    background-image: linear-gradient(#000, #000);
+    padding-bottom:1px;
+    background-image: linear-gradient(#112378, #112378);
     background-position: 0% 100%; /*OR bottom left*/
-    background-size: 0% 2px;
+    background-size: 0% 5px;
     background-repeat: no-repeat;
     transition:
       background-size 0.3s,
@@ -45,6 +45,7 @@ body{
   }
   
   .un:hover {
-    background-position: 100% 100%; /*OR bottom right*/
-    background-size: 100% 20px;
+    /* background-position: 100% 100%; OR bottom right */
+    background-size: 100% 5px;
+
   }

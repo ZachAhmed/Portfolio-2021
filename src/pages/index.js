@@ -5,6 +5,7 @@ import Layout from "../components/layout"
 import Project from "../components/project"
 import Grid from "../components/grid"
 import Header from "../components/header"
+import Footer from "../components/footer"
 
 
 export default function Index(){
@@ -46,8 +47,11 @@ export default function Index(){
                     <Project pTitle='Cannabis Laws' pDescription='Data-Visualization project aimed at informing the public about cannabis bylaws in Montreal following legalization.'/>
                 </Link>
 
-                <Link to='/#top' className='font-serif text-3xl col-start-4 row-start-5 col-span-2 text-center my-20 text-blue un' data-sal="slide-up" data-sal-delay="0" data-sal-easing="ease-in-out-quad" data-sal-duration="200">Back to top</Link>
+                <Link to='/#top' className='font-serif text-3xl col-start-4 row-start-5 col-span-2 text-center my-20 text-blue' data-sal="slide-up" data-sal-delay="0" data-sal-easing="ease-in-out-quad" data-sal-duration="200">
+                    <span className='un'>Back to top</span>
+                </Link>
             </Grid>
+            <Footer></Footer>
         </Layout>       
     )
 }
