@@ -40,7 +40,7 @@ export default function Index(){
                 </Link>
 
                 <Link to='/about' className="row-start-2 col-start-2 col-span-2 mr-10 md:row-start-1 col-start-5 row-span-2 col-span-3">
-                    <Project pTitle='Assorted Graphics' pDescription="A collection of illustrations and logos I've designed."/>
+                    <Project pTitle='Assorted Graphics' pDescription="A collection of illustrations and logos I've designed while either freelancing, or on personal time."/>
                 </Link>
 
                 <Link to='/about' className="row-start-3 col-start-1 col-span-2 ml-10 md:col-start-2 col-span-3 row-span-2">
