@@ -4,6 +4,15 @@
 
 body{
     margin:0px;
+    color: #112378;
+}
+
+h1{
+    @apply font-serif;
+}
+
+p{
+    @apply font-sans-serif;
 }
 
 ::-webkit-scrollbar{
@@ -49,7 +58,6 @@ body{
   }
   
   .un:hover {
-    /* background-position: 100% 100%; OR bottom right */
     background-size: 100% 5px;
 
   }

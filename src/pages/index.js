@@ -26,7 +26,7 @@ export default function Index(){
                     <p> About</p>
                 </Link> */}
 
-                <Link to='/about' className="row-start-4 col-start-1 col-span-2 ml-10 md:col-start-2 md:col-span-3 row-start-4 row-span-2">
+                <Link to='/mypiece' className="row-start-4 col-start-1 col-span-2 ml-10 md:col-start-2 md:col-span-3 row-start-4 row-span-2">
                     <Project pTitle='MyPiece Case Study' pDescription='User experience & interface design project for a deal-finding app aimed at university students.'/>
                 </Link>
                 <Link to='/about' className="row-start-5 col-start-2 col-span-2 mr-10 md:col-start-5 md:row-start-4 col-span-3 row-span-2">
@@ -47,7 +47,7 @@ export default function Index(){
                     <Project pTitle='Cannabis Laws' pDescription='Data-Visualization project aimed at informing the public about cannabis bylaws in Montreal following legalization.'/>
                 </Link>
 
-                <Link to='/#top' className='font-serif text-3xl col-start-4 row-start-5 col-span-2 text-center my-20 text-blue' data-sal="slide-up" data-sal-delay="0" data-sal-easing="ease-in-out-quad" data-sal-duration="200">
+                <Link to='/#top' className='font-serif text-3xl col-start-4 row-start-5 col-span-2 text-center my-20 text-grey-200' data-sal="slide-up" data-sal-delay="0" data-sal-easing="ease-in-out-quad" data-sal-duration="200">
                     <span className='un'>Back to top</span>
                 </Link>
             </Grid>
