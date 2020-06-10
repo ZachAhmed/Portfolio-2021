@@ -11,8 +11,10 @@ h1{
     @apply font-serif;
 }
 
-p{
+h3, h4, p{
     @apply font-sans-serif;
+    --sal-duration: 800ms;
+    --sal-delay: 300ms;
 }
 
 ::-webkit-scrollbar{
@@ -33,31 +35,33 @@ p{
 
 .bg-slide {
     background-size: 100% 200%;
-    background-image: linear-gradient(to top, #112378 50%, white 50%);
+    background-image: linear-gradient(to top, theme('colors.blue') 50%, theme('colors.white') 50%);
     -webkit-transition: background-position 1s;
     -moz-transition: background-position 1s;
     transition: background-position 1s, color 1s;
-    color: #112378;
+    color: theme('colors.blue');
 }
 
 .bg-slide:hover {
     background-position: 0% -35%;
-    color: #FFF;
+    color: theme('colors.white');
 }
 
 .un {
     display: inline-block;
     padding-bottom:1px;
-    background-image: linear-gradient(#112378, #112378);
+    background-image: linear-gradient(theme('colors.blue'), theme('colors.blue'));
     background-position: 0% 100%; /*OR bottom left*/
     background-size: 0% 5px;
     background-repeat: no-repeat;
     transition:
-      background-size 0.3s,
-      background-position 1s 0.3s; /*change after the size immediately*/
-  }
-  
-  .un:hover {
-    background-size: 100% 5px;
+    background-size 0.3s,
+    background-position 1s 0.3s,
+    color 1s; /*change after the size immediately*/
+    color: theme('colors.gray');
+}
 
-  }
+.un:hover {
+    background-size: 100% 5px;
+    color: theme('colors.blue')
+}

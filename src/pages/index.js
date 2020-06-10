@@ -22,10 +22,6 @@ export default function Index(){
                     <h3 className='font-sans-serif text-2xl mt-5' data-sal="fade" data-sal-duration="0">Is a digital designer from Montréal, Québec. Passionate about designing intuitive user-interfaces, and UX design.</h3>
                 </div>
 
-                {/* <Link to='/about' className='row-start-3 text-center my-20 mx-10 font-sans-serif text-blue text-xl border-6 rounded-md px-5 md:col-start-2 hover:bg-blue hover:text-white hover:rounded-md hover:border-6 hover:border-blue' data-sal="fade" data-sal-duration="0">
-                    <p> About</p>
-                </Link> */}
-
                 <Link to='/mypiece' className="row-start-4 col-start-1 col-span-2 ml-10 md:col-start-2 md:col-span-3 row-start-4 row-span-2">
                     <Project pTitle='MyPiece Case Study' pDescription='User experience & interface design project for a deal-finding app aimed at university students.'/>
                 </Link>
@@ -47,8 +43,8 @@ export default function Index(){
                     <Project pTitle='Cannabis Laws' pDescription='Data-Visualization project aimed at informing the public about cannabis bylaws in Montreal following legalization.'/>
                 </Link>
 
-                <Link to='/#top' className='font-serif text-3xl col-start-4 row-start-5 col-span-2 text-center my-20 text-grey-200' data-sal="slide-up" data-sal-delay="0" data-sal-easing="ease-in-out-quad" data-sal-duration="200">
-                    <span className='un'>Back to top</span>
+                <Link to='/#top' className='font-serif text-3xl col-start-4 row-start-5 col-span-2 text-center my-20' data-sal="slide-up" data-sal-delay="0" data-sal-easing="ease-in-out-quad" data-sal-duration="200">
+                    <span className='un text-gray-500'>Back to top</span>
                 </Link>
             </Grid>
             <Footer></Footer>
