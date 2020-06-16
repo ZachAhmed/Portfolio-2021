@@ -20,7 +20,7 @@ function mypiece (props) {
             <Grid>
                 <Header staticName="Zach Ahmed"></Header>
                 <div className="row-start-1 row-span-1 col-span-3 mx-5 mt-20" data-sal="slide-up" data-sal-duration='800' data-sal-easing='ease-in-out-sine'>
-                    <h1 className="col-span-4 text-3xl">Mypiece App Design</h1>
+                    <h1 className="col-span-4 text-3xl">Mypiece App</h1>
                     <h3 className="font-sans-serif text-2xl"> Internship</h3>
 
                     <h4 className=" font-sans-serif mt-4 text-lg font-semibold"> Timeline </h4>
