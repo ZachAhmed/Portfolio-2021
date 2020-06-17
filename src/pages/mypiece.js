@@ -5,7 +5,7 @@ import Layout from "../components/layout"
 import Grid from "../components/grid"
 import Header from "../components/header"
 import Footer from "../components/footer"
-import projectLayout from "../components/projectLayout"
+import Img from 'gatsby'
 import sal from 'sal.js'
 
 sal({
@@ -33,8 +33,8 @@ function mypiece (props) {
                     <p> Zach Ahmed / Ryan Angelo </p>
                 </div>
                 <div className="mx-5 mt-3 row-start-2 col-span-3">
-                    <h3 className="text-xl font-semibold" data-sal="slide-up" data-sal-easing='ease-in-out-sine'> Mypiece is an app where users could buy meals at popular restaurants around the downtown core at a discounted price.</h3>
-                    <p className="mt-3" data-sal="slide-up" data-sal-easing='ease-in-out-sine'> Reprehenderit cupidatat ut pariatur incididunt qui officia tempor aute amet eiusmod cillum tempor. Consequat nulla adipisicing quis incididunt ullamco esse incididunt qui culpa ad consectetur incididunt aliqua. Qui eiusmod nulla quis cupidatat labore officia. Duis voluptate exercitation labore cillum ullamco do ut sint veniam nisi sit ut exercitation. Labore aute exercitation deserunt proident veniam consectetur ullamco. </p>
+                    <h3 className="text-xl font-semibold leading-snug" data-sal="slide-up" data-sal-easing='ease-in-out-sine'> Mypiece is an app where users could buy meals at popular restaurants around the downtown core at a discounted price.</h3>
+                    <p className="mt-4" data-sal="slide-up" data-sal-easing='ease-in-out-sine'> Mypiece was make to help students and other professionals in the downtown area find exclusive deals for meals on their lunch break. They would browse the app to see what deals restaurants were offering, and when they found something that thye liked, users could show the cashier at the restaurant that they were using the app and they would receive their discount. </p>
                 </div>
 
                 <div className="px-5 py-2 row-start-3 col-span-3 bg-lavender">

@@ -20,20 +20,20 @@ function mypiece (props) {
             <Grid>
                 <Header staticName="Zach Ahmed"></Header>
                 <div className="row-start-1 row-span-1 col-span-3 mx-5 mt-20" data-sal="slide-up" data-sal-duration='800' data-sal-easing='ease-in-out-sine'>
-                    <h1 className="col-span-4 text-3xl">Mypiece App</h1>
-                    <h3 className="font-sans-serif text-2xl"> Internship</h3>
+                    <h1 className="col-span-4 text-3xl">Cumulonimbus Sculpture</h1>
+                    <h3 className="font-sans-serif text-2xl"> CEGEP Final Project</h3>
 
                     <h4 className=" font-sans-serif mt-4 text-lg font-semibold"> Timeline </h4>
-                    <p> March 2016 - March 2017</p>
+                    <p> Jan 2015 - May 2015</p>
 
                     <h4 className=" font-sans-serif mt-4 text-lg font-semibold"> Responsibilities </h4>
-                    <p>Wireframing / User-Flows / Mockups / User-Testing / Graphics / Product Design</p>
+                    <p>Interaction Design / Arduino Programming / Circuitry / Installation Design</p>
 
                     <h4 className=" font-sans-serif mt-4 text-lg font-semibold"> Team </h4>
-                    <p> Zach Ahmed / Ryan Angelo </p>
+                    <p> Zach Ahmed / Tiara Bucci / Kyle Gapulan / Matthiew Vaccariello </p>
                 </div>
                 <div className="mx-5 mt-3 row-start-2 col-span-3">
-                    <h3 className="text-xl font-semibold" data-sal="slide-up" data-sal-easing='ease-in-out-sine'> Mypiece is an app where users could buy meals at popular restaurants around the downtown core at a discounted price.</h3>
+                    <h3 className="text-xl font-semibold" data-sal="slide-up" data-sal-easing='ease-in-out-sine'> An interactive installation designed for display at Dawson college.</h3>
                     <p className="mt-3" data-sal="slide-up" data-sal-easing='ease-in-out-sine'> Reprehenderit cupidatat ut pariatur incididunt qui officia tempor aute amet eiusmod cillum tempor. Consequat nulla adipisicing quis incididunt ullamco esse incididunt qui culpa ad consectetur incididunt aliqua. Qui eiusmod nulla quis cupidatat labore officia. Duis voluptate exercitation labore cillum ullamco do ut sint veniam nisi sit ut exercitation. Labore aute exercitation deserunt proident veniam consectetur ullamco. </p>
                 </div>
 
