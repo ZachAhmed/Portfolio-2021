@@ -25,21 +25,21 @@ export default function Index(){
                 <Link to='/mypiece' className="row-start-4 col-start-1 col-span-2 ml-10 md:col-start-2 md:col-span-3 row-start-4 row-span-2">
                     <Project pTitle='MyPiece Case Study' pDescription='User experience & interface design project for a deal-finding app aimed at university students.'/>
                 </Link>
-                <Link to='/about' className="row-start-5 col-start-2 col-span-2 mr-10 md:col-start-5 md:row-start-4 col-span-3 row-span-2">
+                <Link to='/natureofthings' className="row-start-5 col-start-2 col-span-2 mr-10 md:col-start-5 md:row-start-4 col-span-3 row-span-2">
                     <Project pTitle='The Nature Of Things' pDescription='Creative computation project exploring how everyday objects might behave unexpectedly in an alternate reality.'/>
                 </Link>
             </Grid>
             <div className='h-10 bg-white' id='space'></div>
             <Grid>    
-                <Link to='/about' className="row-start-1 col-start-1 col-span-2 ml-10 md:col-start-2 row-span-2 col-span-3">
+                <Link to='/cumulonimbus' className="row-start-1 col-start-1 col-span-2 ml-10 md:col-start-2 row-span-2 col-span-3">
                     <Project pTitle='Cumulonimbus' pDescription='An interactive installation designed for display at Dawson college.'/>
                 </Link>
 
-                <Link to='/about' className="row-start-2 col-start-2 col-span-2 mr-10 md:row-start-1 col-start-5 row-span-2 col-span-3">
+                <Link to='/graphics' className="row-start-2 col-start-2 col-span-2 mr-10 md:row-start-1 col-start-5 row-span-2 col-span-3">
                     <Project pTitle='Assorted Graphics' pDescription="A collection of illustrations and logos I've designed while either freelancing, or on personal time."/>
                 </Link>
 
-                <Link to='/about' className="row-start-3 col-start-1 col-span-2 ml-10 md:col-start-2 col-span-3 row-span-2">
+                <Link to='/cannabislaws' className="row-start-3 col-start-1 col-span-2 ml-10 md:col-start-2 col-span-3 row-span-2">
                     <Project pTitle='Cannabis Laws' pDescription='Data-Visualization project aimed at informing the public about cannabis bylaws in Montreal following legalization.'/>
                 </Link>
 
