@@ -1,11 +1,11 @@
 import React from "react"
-import { withPrefix, Link } from "gatsby"
-import { Helmet } from "react-helmet"
+import { withPrefix, Link} from "gatsby"
+import {useStaticQuery, graphql} from "gatsby"
+import Img from "gatsby"
 import Layout from "../components/layout"
 import Grid from "../components/grid"
 import Header from "../components/header"
 import Footer from "../components/footer"
-import projectLayout from "../components/projectLayout"
 import sal from 'sal.js'
 
 sal({
@@ -13,10 +13,8 @@ sal({
 });
 
 function mypiece (props) {
-
     return (
-        <Layout>
-            
+        <Layout>            
             <Grid>
                 <Header staticName="Zach Ahmed"></Header>
                 <div className="row-start-1 row-span-1 col-span-3 mx-5 mt-20" data-sal="slide-up" data-sal-duration='800' data-sal-easing='ease-in-out-sine'>
@@ -36,9 +34,10 @@ function mypiece (props) {
                     <h3 className="text-xl font-semibold" data-sal="slide-up" data-sal-easing='ease-in-out-sine'> A collection of illustrations and logos I've designed.</h3>
                 </div>
             </Grid>
-            <Footer></Footer>
+            <Footer/>
         </Layout>
     )
 }
 
 export default mypiece
+
