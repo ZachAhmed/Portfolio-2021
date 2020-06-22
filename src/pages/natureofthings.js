@@ -31,7 +31,7 @@ function mypiece (props) {
                     <p> Jan 2019 - April 2019</p>
 
                     <h4 className=" font-sans-serif mt-4 text-lg font-semibold"> Responsibilities </h4>
-                    <p>3D Modelling / Programming / Arduino / Protoyping / Video-editing / Interaction-design</p>
+                    <p>3D Modelling / Processing / Arduino / Protoyping / Video-editing / Interaction-design</p>
 
                     <h4 className=" font-sans-serif mt-4 text-lg font-semibold"> Team </h4>
                     <p> Zach Ahmed / Patrick Vasile </p>
