@@ -16,6 +16,12 @@ sal({
     once: true,
 });
 
+// Project Page Flow
+
+// Challenge - Context of the project, Where the team was in the development process, What their goal was
+// Approach - How I went about solving the problem, Research methods used adn why, 
+// Results - What happened in the end? Was it what we expected? What would we do differently?
+
 function mypiece (props) {
 
     return (
