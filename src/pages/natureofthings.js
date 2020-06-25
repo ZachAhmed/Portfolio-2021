@@ -43,6 +43,7 @@ function mypiece (props) {
                     <p> Zach Ahmed / Patrick Vasile </p>
 
                     <img className="mt-10 col-span-3" src={pic1} alt="Interactive Installation Setup"/>
+                    <figcaption className="text-sm">The installation setup</figcaption>
                 </div>
 
                 <div className="mx-5 mt-3 row-start-2 col-span-3">
@@ -66,13 +67,16 @@ function mypiece (props) {
                     <p className="mt-3">The approach that we wanted to take involved leveraging the simplicity of the Arduino platform paired with an RFID shield, as well as nCloth simulations from Maya. We wanted to leverage these technologies to make simple interactions lead to significant change.    </p>
 
                     <h3 className="font-semibold mt-10" data-sal="slide-up" data-sal-easing='ease-in-out-sine'>The goal</h3>
-                    <p className="mt-3">Our goal was to have an intresting video play when a user would place an object upon the pedestal.</p>
+                    <p className="mt-3">Our goal was to have an interesting video play when a user would place an object upon the pedestal.</p>
                 </div>
 
                 <div className="mx-5 row-start-2 col-span-3">
                     <h3 className="font-semibold" data-sal="slide-up" data-sal-easing='ease-in-out-sine'>Process</h3>
-                    <p className="mt-3">Reprehenderit cupidatat ut pariatur incididunt qui officia tempor aute amet eiusmod cillum tempor. Consequat nulla adipisicing quis incididunt ullamco esse incididunt qui culpa ad consectetur incididunt aliqua. Qui eiusmod nulla quis cupidatat labore officia. Duis voluptate exercitation labore cillum ullamco do ut sint veniam nisi sit ut exercitation. Labore aute exercitation deserunt proident veniam consectetur ullamco. </p>
+                    <p className="mt-3">Our process started with researching different artists and installations for inspiration and to see what kind of work other people had done within the domain we wanted to work in. We came upon the work of Albert Omoss who works with 3D models and gives them strange effects. After that we looked at what kind of interactions and what kind of interface our viewers would interact with. We decided on sticking with a simple interaction to encourage the viewer to explore and play with minimal explanation to keep the effects a surprise. To facilitate simple interactivity, we opted to use an arduino paired with an RFID shield and readable RFID tags that we would embed within the objects that we wanted to use. </p>
+                    <p className="mt-3">Once the code was mostly completed, we got to work on building the pedestal which would house the arduino and sensors, as well as some leds for decoration and feel. The pedestal was a simple square column which could house a 14” laptop and the arduino. It stood at about 4” tall and was made out of recycled plywood that was painted black.</p>
+                    <p className="mt-3">From there we got to work on picking what objects we wanted to present. Patrick looked into the 3D modelling piece, and nCloth while I started to work on the arduino code. During programming the arduino, the biggest challenge that I faced was integrating it with Processing for video playback. </p>
                     <img className="col-span-3 mt-10" src={pic2} alt="Deformation example" />
+                    <figcaption className="text-sm">Start of the deformation animation.</figcaption>
                 </div>
 
                 <div className="px-5 py-2 row-start-3 col-span-3 bg-lavender">
