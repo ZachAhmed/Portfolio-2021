@@ -37,7 +37,7 @@ function mypiece (props) {
                     <p> Jan 2019 - April 2019</p>
 
                     <h4 className=" font-sans-serif mt-4 text-lg font-semibold"> Responsibilities </h4>
-                    <p>3D Modelling / Programming / Arduino / Protoyping / Video-editing / Interaction-design</p>
+                    <p>3D Modelling / Programming / Arduino / Prototyping / Video-editing / Interaction-design</p>
 
                     <h4 className=" font-sans-serif mt-4 text-lg font-semibold"> Team </h4>
                     <p> Zach Ahmed / Patrick Vasile </p>
@@ -47,8 +47,8 @@ function mypiece (props) {
                 </div>
 
                 <div className="mx-5 mt-3 row-start-2 col-span-3">
-                    <h3 className="text-xl font-semibold" data-sal="slide-up" data-sal-easing='ease-in-out-sine'>Creative Computaton / Interaction Design project exploring how everyday objects might behave unexpectedly in an alternate reality.</h3>
-                    <p className="mt-3" data-sal="slide-up" data-sal-easing='ease-in-out-sine'> This installation was one of two final projects required to graduate from the Computation Arts program. My partner Patick and I wanted to to explore how everyday objects behave in real life, and contrast it with how they might behave in a digital realm. Viewers of the installation were invited to approach a black pedestal, which had several objects laid out in front of it and to place one of them upon the pedestal. Once an object was placed on the pedestal, a video would be projected showing an everyday object behaving in extraordinary ways.</p>
+                    <h3 className="text-xl font-semibold" data-sal="slide-up" data-sal-easing='ease-in-out-sine'>Creative Computation / Interaction Design project exploring how everyday objects might behave unexpectedly in an alternate reality.</h3>
+                    <p className="mt-3" data-sal="slide-up" data-sal-easing='ease-in-out-sine'> This installation was one of two final projects required to graduate from the Computation Arts program. My partner Patrick and I wanted to to explore how everyday objects behave in real life, and contrast it with how they might behave in a digital realm. Viewers of the installation were invited to approach a black pedestal, which had several objects laid out in front of it and to place one of them upon the pedestal. Once an object was placed on the pedestal, a video would be projected showing an everyday object behaving in extraordinary ways.</p>
                 </div>
 
                 <div className="px-5 py-2 row-start-3 col-span-3 bg-lavender">
@@ -58,7 +58,7 @@ function mypiece (props) {
 
                 <div className="mx-5 row-start-4 col-span-3">
                     <h3 className="font-semibold" data-sal="slide-up" data-sal-easing='ease-in-out-sine'>Constraints</h3>
-                    <p className="mt-3">The constraints that were presented to us in the project outline were that the project must be interactive and must be an art-piece. The other constraint that we discovereed was buget, as we had to spend our own money on any supplies and materials that we needed. </p>
+                    <p className="mt-3">The constraints that were presented to us in the project outline were that the project must be interactive and must be an art-piece. The other constraint that we discovered was budget, as we had to spend our own money on any supplies and materials that we needed. </p>
                 </div>
             </Grid>
             <Grid>
@@ -81,7 +81,8 @@ function mypiece (props) {
 
                 <div className="px-5 py-2 row-start-3 col-span-3 bg-lavender">
                     <h3 className="font-semibold" data-sal="slide-up" data-sal-easing='ease-in-out-sine'>Outcome</h3>
-                    <p className="mt-3">Reprehenderit cupidatat ut pariatur incididunt qui officia tempor aute amet eiusmod cillum tempor. Consequat nulla adipisicing quis incididunt ullamco esse incididunt qui culpa ad consectetur incididunt aliqua. Qui eiusmod nulla quis cupidatat labore officia. Duis voluptate exercitation labore cillum ullamco do ut sint veniam nisi sit ut exercitation. Labore aute exercitation deserunt proident veniam consectetur ullamco. </p>
+                    <p className="mt-3">The final outcome of our project was what we expected and had planned for. Our project worked exactly the way that we wanted it to.</p>
+                    <p>The feedback that we received was that the colours of our animation could have been more interesting instead of the monochromatic gray theme.</p>
                 </div>
                 <iframe className="mr-5 mb-8 w-full col-span-3" height="300" src="https://www.youtube-nocookie.com/embed/hrjqjggidWs" frameBorder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
             </Grid>
