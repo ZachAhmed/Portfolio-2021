@@ -4,5 +4,8 @@
         "purgecss",
         "semibold",
         "tailwindcss"
+    ],
+    "cSpell.ignoreWords": [
+        "vasile"
     ]
 }
