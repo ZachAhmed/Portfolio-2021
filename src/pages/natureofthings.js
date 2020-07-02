@@ -26,7 +26,6 @@ function mypiece (props) {
 
     return (
         <Layout>
-            
             <Grid>
                 <Header staticName="Zach Ahmed"></Header>
                 <div className="row-start-1 row-span-1 col-span-3 mx-5 mt-20" data-sal="slide-up" data-sal-duration='800' data-sal-easing='ease-in-out-sine'>
@@ -84,7 +83,7 @@ function mypiece (props) {
                     <p className="mt-3">The final outcome of our project was what we expected and had planned for. Our project worked exactly the way that we wanted it to.</p>
                     <p>The feedback that we received was that the colours of our animation could have been more interesting instead of the monochromatic gray theme.</p>
                 </div>
-                <iframe className="mr-5 mb-8 w-full col-span-3" height="300" src="https://www.youtube-nocookie.com/embed/hrjqjggidWs" frameBorder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+                {/* <iframe className="mr-5 mb-8 w-full col-span-3" height="300" src="https://www.youtube-nocookie.com/embed/hrjqjggidWs" frameBorder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe> */}
             </Grid>
             <Footer></Footer>
         </Layout>

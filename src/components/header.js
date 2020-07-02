@@ -1,5 +1,6 @@
 import React from 'react'
-import { withPrefix, Link } from "gatsby"
+import { withPrefix, Link } from 'gatsby'
+import Menu from './menu'
 
 export default function Header (props){
     return(
