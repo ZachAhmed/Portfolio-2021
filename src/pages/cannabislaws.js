@@ -21,10 +21,9 @@ function mypiece (props) {
 
     return (
         <Layout>
-            
             <Grid>
                 <Header staticName="Zach Ahmed"></Header>
-                <div className="row-start-1 row-span-1 col-span-3 mx-5 mt-20" data-sal="slide-up" data-sal-duration='800' data-sal-easing='ease-in-out-sine'>
+                <div className="row-start-1 row-span-1 col-span-3 mx-5 mt-20 lg:col-start-3" data-sal="slide-up" data-sal-duration='800' data-sal-easing='ease-in-out-sine'>
                     <h1 className="col-span-4 text-3xl">Montreal Cannabis Laws Website</h1>
                     <h3 className="font-sans-serif text-2xl"> University Project</h3>
 
@@ -44,18 +43,18 @@ function mypiece (props) {
 
                 <div className="px-5 py-2 row-start-3 col-span-3 bg-lavender">
                     <h3 className="font-semibold" data-sal="slide-up" data-sal-easing='ease-in-out-sine'>The challenge</h3>
-                    <p className="mt-3">Reprehenderit cupidatat ut pariatur incididunt qui officia tempor aute amet eiusmod cillum tempor. Consequat nulla adipisicing quis incididunt ullamco esse incididunt qui culpa ad consectetur incididunt aliqua. Qui eiusmod nulla quis cupidatat labore officia. Duis voluptate exercitation labore cillum ullamco do ut sint veniam nisi sit ut exercitation. Labore aute exercitation deserunt proident veniam consectetur ullamco. </p>
+                    <p className="mt-3"></p>
                 </div>
             </Grid>
             <Grid>
                 <div className="mx-5 mt-10 row-start-1 col-span-3">
                     <h3 className="font-semibold" data-sal="slide-up" data-sal-easing='ease-in-out-sine'>Approach</h3>
-                    <p className="mt-3">Reprehenderit cupidatat ut pariatur incididunt qui officia tempor aute amet eiusmod cillum tempor. Consequat nulla adipisicing quis incididunt ullamco esse incididunt qui culpa ad consectetur incididunt aliqua. Qui eiusmod nulla quis cupidatat labore officia. Duis voluptate exercitation labore cillum ullamco do ut sint veniam nisi sit ut exercitation. Labore aute exercitation deserunt proident veniam consectetur ullamco. </p>
+                    <p className="mt-3"></p>
                 </div>
 
                 <div className="px-5 py-2 row-start-3 col-span-3 bg-lavender">
                     <h3 className="font-semibold" data-sal="slide-up" data-sal-easing='ease-in-out-sine'>Outcome</h3>
-                    <p className="mt-3">Reprehenderit cupidatat ut pariatur incididunt qui officia tempor aute amet eiusmod cillum tempor. Consequat nulla adipisicing quis incididunt ullamco esse incididunt qui culpa ad consectetur incididunt aliqua. Qui eiusmod nulla quis cupidatat labore officia. Duis voluptate exercitation labore cillum ullamco do ut sint veniam nisi sit ut exercitation. Labore aute exercitation deserunt proident veniam consectetur ullamco. </p>
+                    <p className="mt-3"></p>
                 </div>
             </Grid>
             <Footer></Footer>
