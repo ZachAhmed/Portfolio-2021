@@ -12,6 +12,7 @@ import Highlight from '../components/projectHighlight'
 import pic1 from "../images/not1.jpg"
 import pic2 from "../images/not2.png"
 import pic3 from "../images/not3.png"
+import Info from "../components/projectInfo"
 
 
 sal({
@@ -31,21 +32,18 @@ function mypiece (props) {
             <Grid>
                 <Header staticName="Zach Ahmed"></Header>
                 <div className="row-start-1 row-span-1 col-span-3 lg:col-span-4 mx-5 lg:mx-0 mt-20 lg:col-start-3" data-sal="slide-up" data-sal-duration='800' data-sal-easing='ease-in-out-sine'>
-                    <h1 className="col-span-4 text-xl lg:text-4xl">The Nature of Things</h1>
-                    <h3 className="font-sans-serif text-2xl"> University Final Project</h3>
+                    <Info
+                        title='The Nature of Things'
+                        purpose='University Final Project'
+                        timeline='Jan 2019 - April 2019'
+                        responsibilities='3D Modelling / Programming / Arduino / Prototyping / Video-editing / Interaction-design'
+                        team='Zach Ahmed / Patrick Vasile'
 
-                    <h4 className=" font-sans-serif mt-4 text-lg lg:text-2xl font-semibold"> Timeline </h4>
-                    <p> Jan 2019 - April 2019</p>
-
-                    <h4 className=" font-sans-serif mt-4 text-lg lg:text-2xl font-semibold"> Responsibilities </h4>
-                    <p>3D Modelling / Programming / Arduino / Prototyping / Video-editing / Interaction-design</p>
-
-                    <h4 className=" font-sans-serif mt-4 text-lg lg:text-2xl font-semibold"> Team </h4>
-                    <p> Zach Ahmed / Patrick Vasile </p>
-
+                    />
                     <img className="mt-10 col-span-3" src={pic1} alt="Interactive Installation Setup"/>
                     <figcaption className="text-sm">The installation setup</figcaption>
                 </div>
+                
 
                 <div className="row-start-2 row-span-1 col-span-3 lg:col-span-4 mx-5 lg:mx-0 lg:col-start-3" data-sal="slide-up" data-sal-duration='800' data-sal-easing='ease-in-out-sine'>
                     <ProjectText 

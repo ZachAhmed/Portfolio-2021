@@ -6,6 +6,7 @@ import Grid from "../components/grid"
 import Header from "../components/header"
 import Footer from "../components/footer"
 import sal from 'sal.js'
+import ProjectText from "../components/projectText"
 
 sal({
     once: true,
@@ -46,17 +47,23 @@ function mypiece (props) {
                     <p className="mt-3"></p>
                 </div>
             </Grid>
-            <Grid>
-                <div className="mx-5 mt-10 row-start-1 col-span-3">
-                    <h3 className="font-semibold" data-sal="slide-up" data-sal-easing='ease-in-out-sine'>Approach</h3>
-                    <p className="mt-3"></p>
-                </div>
-
-                <div className="px-5 py-2 row-start-3 col-span-3 bg-lavender">
-                    <h3 className="font-semibold" data-sal="slide-up" data-sal-easing='ease-in-out-sine'>Outcome</h3>
-                    <p className="mt-3"></p>
-                </div>
-            </Grid>
+            <ProjectText 
+                bigtext='llorem'
+                bodytext="llamsa"
+            
+            />
+            <ProjectText 
+                bigtext='llorem'
+                bodytext="llamsa"
+            
+            />
+            <ProjectText 
+                bigtext='llorem'
+                bodytext="llamsa"
+            
+            />
+                
+                
             <Footer></Footer>
         </Layout>
     )
