@@ -1,36 +1,36 @@
-import React, { Component } from 'react'
-import { withPrefix, Link } from 'gatsby'
+// import React, { Component } from 'react'
+// import { withPrefix, Link } from 'gatsby'
 
-class Menu extends Component{
-    render(){
-        return(
-            <div>
-                <ul>
-                    <li>Home</li>
-                    <li>About</li>
-                    <li>Contact</li>
-                </ul>
-            </div>
-        );
-    }
-}
+// class Menu extends Component{
+//     render(){
+//         return(
+//             <div>
+//                 <ul>
+//                     <li>Home</li>
+//                     <li>About</li>
+//                     <li>Contact</li>
+//                 </ul>
+//             </div>
+//         );
+//     }
+// }
 
-constructor(props, context) {
-    super(props, context);
+// constructor(props, context) {
+//     super(props, context);
 
-    this.state = {
-        visible: false
-    };
+//     this.state = {
+//         visible: false
+//     };
 
-    this.toggleMenu = this.toggleMenu.bind(this);
-}
+//     this.toggleMenu = this.toggleMenu.bind(this);
+// }
 
-toggleMenu() {
-    this.setState({
-        visible: !this.state.visible
-    });
-}
+// toggleMenu() {
+//     this.setState({
+//         visible: !this.state.visible
+//     });
+// }
 
 
 
-export default Menu;
+// export default Menu;

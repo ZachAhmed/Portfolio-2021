@@ -1,16 +1,13 @@
 import React from 'react'
-import Layout from './layout'
 
 
-function projectText(props) {
+function ProjectText(props) {
     return(
-        <Layout>
-            <div>
-                <h3 className="text-xl lg:text-2xl font-semibold" data-sal="slide-up" data-sal-easing='ease-in-out-sine'>{props.bigText}</h3>
-                <p className="mt-3 lg:text-xl" data-sal="slide-up" data-sal-easing='ease-in-out-sine'> {props.bodyText}</p>
-            </div>
-        </Layout>
+        <div>
+            <h3 className="text-xl lg:text-2xl font-semibold" data-sal="slide-up" data-sal-easing='ease-in-out-sine'>{props.bigtext}</h3>
+            <p className="mt-3 lg:text-xl" data-sal="slide-up" data-sal-easing='ease-in-out-sine'>{props.bodytext}</p>
+        </div>
     )
 } 
 
-export default projectText
+export default ProjectText
