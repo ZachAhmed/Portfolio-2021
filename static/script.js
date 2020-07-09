@@ -1,4 +1,4 @@
-const element = document.querySelector('.animated');
+var element = document.querySelector('.animated');
 var t = document.getElementById('name');
 var g = document.getElementsByClassName('generated');
 

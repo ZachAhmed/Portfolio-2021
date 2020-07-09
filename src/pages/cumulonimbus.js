@@ -20,7 +20,7 @@ import pic3 from "../images/image3.jpg"
 // Approach - How I went about solving the problem, Research methods used adn why, 
 // Results - What happened in the end? Was it what we expected? What would we do differently?
 
-function mypiece (props) {
+function cloud (props) {
 
     return (
         <Layout>
@@ -55,32 +55,38 @@ function mypiece (props) {
                 </div>
 
                 <div className="mx-5 lg:mx-0 row-start-4 col-span-3 lg:col-span-4 lg:col-start-3" >
-                    <h3 className="font-semibold lg:text-2xl" data-sal="slide-up" data-sal-easing='ease-in-out-sine'>Constraints</h3>
-                    <p className="mt-3 lg:text-xl">Being the final for an interactive arts program, the only constraints that were given to us were that the project had to be interactive and leverage some kind of technology for it to be considered for display. We also discovered that our budget was another constraint since the </p>
+                    <ProjectText
+                        bigtext="Constraints"
+                        bodytext="Being the final for an interactive arts program, the only constraints that were given to us were that the project had to be interactive and leverage some kind of technology for it to be considered for display. We also discovered that our budget was another constraint since the "
+                    />
                 </div>
             </Grid>
             <Grid>
                 <div className="mx-5 lg:mt-10 lg:mx-0 row-start-1 col-span-3 lg:col-span-4 lg:col-start-3">
-                    <h3 className="font-semibold lg:text-2xl" data-sal="slide-up" data-sal-easing='ease-in-out-sine'>The Approach</h3>
-                    <p className="mt-3 lg:text-xl">The approach that we wanted to take involved leveraging the simplicity of the Arduino platform paired with an RFID shield, as well as nCloth simulations from Maya. We wanted to leverage these technologies to make simple interactions lead to significant change.</p>
+                    <ProjectText
+                        bigtext='The Approach'
+                        bodytext='Since I was going to be doing the programming, we were going back and forth between either using a twitter API or an arduino to run the interactions. In the end we decided that we wanted our viewrs to be able to interct directly with our sculpture so we chose to use the arduino. With the arduino we wanted to make the cloud light up in various places to simulate lightning, and to do it we decided on using capacitive touch sensors to detect when a user would touch the sculpture.'
+                    />
                 </div>
 
                 <div className="mx-5 lg:mx-0 row-start-2 col-span-3 lg:col-span-4 lg:col-start-3">
                     <h3 className="font-semibold lg:text-2xl" data-sal="slide-up" data-sal-easing='ease-in-out-sine'>Process</h3>
-                    <p className="mt-3 lg:text-xl">Our process started with researching different artists and installations for inspiration and to see what kind of work other people had done within the domain we wanted to work in. We came upon the work of Albert Omoss who works with 3D models and gives them strange effects. After that we looked at what kind of interactions and what kind of interface our viewers would interact with. We decided on sticking with a simple interaction to encourage the viewer to explore and play with minimal explanation to keep the effects a surprise. To facilitate simple interactivity, we opted to use an arduino paired with an RFID shield and readable RFID tags that we would embed within the objects that we wanted to use. </p>
-                    <p className="mt-3 lg:text-xl">Once the code was mostly completed, we got to work on building the pedestal which would house the arduino and sensors, as well as some leds for decoration and feel. The pedestal was a simple square column which could house a 14” laptop and the arduino. It stood at about 4” tall and was made out of recycled plywood that was painted black.</p>
-                    <p className="mt-3 lg:text-xl">From there we got to work on picking what objects we wanted to present. Patrick looked into the 3D modelling piece, and nCloth while I started to work on the arduino code. During programming the arduino, the biggest challenge that I faced was integrating it with Processing for video playback. </p>
-                    <img className="col-span-3 mt-10" src={pic2} alt="Deformation example" />
-                    <figcaption className="text-sm">Start of the deformation animation.</figcaption>
-
-                    {/* Video goes here */}
-
+                    <p className="mt-3 lg:text-xl">Once we had an idea of what we were going make, we had to decide on what materials to use. Since this piece would be on display in public, we had to use materials that would be durable enough to withstand use, while also being budget friendly and eco-conscious. We found scraps of sheet metal from the metal shop that we used as the stem, and repurposed a wooden base from another project to house the arduino and power-supply. For the could itself, we decided on using polester stuffing and chicken-wire to mould the cloud cells.</p>
+                    <p className="mt-3 lg:text-xl">We powered the cloud using an Arduino Mega, three capacitive-touch sensors and approximately 75 white leds. To actute the capacitive sensors, we decided to use metal washers we found and attached them to wires hanging from the cloud. This gave us a conductive material for users to touch, and the wires resembled rain.</p>
+                    <p className="mt-3 lg:text-xl">After assembling all the materials we got to work on the build. I delegated shaping and putting together the frame to my other team-mates while I worked on the Arduino code. In between coding and shaping sessions we worked on soldering the LEDs into various groups that would be lit up when touched. To add a surprise factor, I added a function in the code so that after a certain number of touches, the cloud cells would flash in a random order. </p>
+                    
+                    <img className="mt-10 col-span-3" src={pic1} alt="The skeleton of the cloud"/>
+                    <figcaption className="text-sm"> The build in progress.</figcaption>
                 </div>
                 <div className='row-start-3 col-span-3 lg:col-span-4 lg:col-start-3 lg:mb-10'>
                     <Highlight 
                         heading='Outcome' 
-                        p1='The final outcome of our project was what we expected and had planned for. Our project worked exactly the way that we wanted it to.' 
-                        p2='The feedback that we received was that the colours of our animation could have been more interesting instead of the monochromatic gray theme.'/>
+                        p1="As a team we were really happy with how our cloud turned out. The scuplture worked as anticipated and was placed in the main cafeteria of Dawson college, where it got a lot of use 
+                        from students and faculty alike. I'm proud of this project because I learned a lot while making it and it was my first big project where I worked with the Arduino platform." 
+                        p2="We got great feedback from our profs, and other faculty in the school, and it even won a 'best in class' award, but there's always room for improvement. If I were to do it again with the skills that I have now, I would make the intraction more complex rather than touching a metal washer and having the same outcome most of the time."/>
+                </div>
+                <div className='row-start-4 col-span-3 lg:col-span-4 lg:col-start-3'>
+                    <iframe className="mr-5 lg:mr-0 mb-8 w-full col-span-3 lg:col-span-4 lg:col-start-3 lg:rounded-md" height="400" src="https://www.youtube.com/embed/JWNgJDIuRvk" frameBorder="0" allowfullscreen></iframe>
                 </div>
             </Grid>
             <Footer></Footer>
@@ -88,4 +94,4 @@ function mypiece (props) {
     )
 }
 
-export default mypiece
+export default cloud

@@ -26,7 +26,7 @@ sal({
 // Approach - How I went about solving the problem, Research methods used adn why, 
 // Results - What happened in the end? Was it what we expected? What would we do differently?
 
-function mypiece (props) {
+function nature (props) {
 
     return (
         <Layout>
@@ -41,7 +41,7 @@ function mypiece (props) {
                         team='Zach Ahmed / Patrick Vasile'
                     />
                     <img className="mt-10 col-span-3" src={pic1} alt="Interactive Installation Setup"/>
-                    <figcaption className="text-sm mt-2">The installation setup</figcaption>
+                    <figcaption className="text-sm">The installation setup</figcaption>
                 </div>
                 
 
@@ -100,4 +100,4 @@ function mypiece (props) {
     )
 }
 
-export default mypiece
+export default nature

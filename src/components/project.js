@@ -26,7 +26,7 @@ function Project (props) {
       <p className="font-sans-serif text-xl mt-4 leading-snug">{props.pDescription}</p>
       <div className="md:mt-10 ml-10">
         <Img fixed={data.images.childImageSharp.fixed}/>
-      </div>     
+      </div>
     </div>
   )
 }

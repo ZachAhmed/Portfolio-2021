@@ -22,7 +22,7 @@ img{
 }
 
 figcaption{
-    
+    margin-top: .5rem;
 }
 
 ::-webkit-scrollbar{
@@ -76,4 +76,8 @@ figcaption{
 .un:hover {
     background-size: 100% 5px;
     color: theme('colors.blue')
+}
+
+.pcove{
+    height: 100px !important;
 }
