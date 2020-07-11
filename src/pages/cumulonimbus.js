@@ -14,6 +14,9 @@ import pic1 from "../images/image1.jpg"
 import pic2 from "../images/image2.jpg"
 import pic3 from "../images/image3.jpg"
 
+
+sal();
+
 // Project Page Flow
 
 // Challenge - Context of the project, Where the team was in the development process, What their goal was

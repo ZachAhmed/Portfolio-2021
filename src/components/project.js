@@ -2,15 +2,57 @@ import React from "react"
 import { useStaticQuery, graphql } from 'gatsby'
 import Img from 'gatsby-image'
 
+var data;
+
 function Project (props) {
-  const data = useStaticQuery(graphql`
+  data = useStaticQuery(graphql`
     query Images {
-      images: file(relativePath: {eq: "mp_thumb.png"}) {
+      image1: file(relativePath: {eq: "mp_thumb.png"}) {
         childImageSharp {
           fixed (width: 350) {
             ...GatsbyImageSharpFixed
           }
-          fluid (maxWidth: 350) {
+          fluid (maxWidth: 400) {
+            ...GatsbyImageSharpFluid
+          }
+        }
+      }
+      image2: file(relativePath: {eq: "not2.png"}) {
+        childImageSharp {
+          fixed (width: 350) {
+            ...GatsbyImageSharpFixed
+          }
+          fluid (maxWidth: 400) {
+            ...GatsbyImageSharpFluid
+          }
+        }
+      }
+      image3: file(relativePath: {eq: "image3.jpg"}) {
+        childImageSharp {
+          fixed (width: 350) {
+            ...GatsbyImageSharpFixed
+          }
+          fluid (maxWidth: 400) {
+            ...GatsbyImageSharpFluid
+          }
+        }
+      }
+      image4: file(relativePath: {eq: "garden.png"}) {
+        childImageSharp {
+          fixed (width: 350) {
+            ...GatsbyImageSharpFixed
+          }
+          fluid (maxWidth: 400) {
+            ...GatsbyImageSharpFluid
+          }
+        }
+      }
+      image5: file(relativePath: {eq: "a2.png"}) {
+        childImageSharp {
+          fixed (width: 350) {
+            ...GatsbyImageSharpFixed
+          }
+          fluid (maxWidth: 400) {
             ...GatsbyImageSharpFluid
           }
         }
@@ -18,14 +60,14 @@ function Project (props) {
     }
   `)
 
-  console.log(data)
+  console.log(data);
 
   return(
-    <div className="border-6 border-blue rounded-md p-6 min-h-205 md:min-h-full md:p-3 col-gap-10 bg-slide overflow-hidden" data-sal="slide-up" data-sal-delay="0" data-sal-easing="ease-in-out-quad" data-sal-duration="400">
+    <div className="border-6 border-blue rounded-md p-6 min-h-205 haha md:p-3 bg-slide overflow-hidden" data-sal="slide-up" data-sal-delay="0" data-sal-easing="ease-in-out-quad" data-sal-duration="400">
       <h1 className="font-serif text-3xl ">{props.pTitle}</h1>
       <p className="font-sans-serif text-xl mt-4 leading-snug">{props.pDescription}</p>
-      <div className="mt-10 ml-10">
-        <Img fixed={data.images.childImageSharp.fixed}/>
+      <div className="mt-16 mx-10">
+        {props.children}
       </div>
     </div>
   )
