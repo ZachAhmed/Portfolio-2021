@@ -1,19 +1,35 @@
 import React from "react"
-import { withPrefix, Link } from "gatsby"
+import { withPrefix, Link, useStaticQuery, graphql} from "gatsby"
 import { Helmet } from "react-helmet"
 import Layout from "../components/layout"
 import Project from "../components/project"
 import Grid from "../components/grid"
 import Header from "../components/header"
 import Footer from "../components/footer"
+import sal from "sal.js"
 
 import project1 from "../images/mp_thumb.png"
+import project2 from "../images/not2.png"
+import project3 from "../images/image3.jpg"
+import project4 from "../images/garden.png"
+import project5 from "../images/a2.png"
+
+
+sal();
+
+// {data.piece.childImageSharp.fluid}
+// <Img fluid={data.image1.childImageSharp.fluid}
 
 export default function Index(){
+
     return(
         <Layout>
+            
             <Helmet>
                 <script src={withPrefix('script.js')} type="text/javascript" />
+                <meta charSet="utf-8" />
+                <title>Zach Ahmed</title>
+                <link rel="canonical" href="http://zachahmed.com" />
             </Helmet>
             <Grid>
                 <Header></Header>
@@ -23,25 +39,56 @@ export default function Index(){
                 </div>
 
                 <Link to='/mypiece' className="row-start-4 col-start-1 col-span-3 mx-10 md:col-start-2 ">
-                    <Project pTitle='MyPiece Case Study' pDescription='User experience & interface design project for a deal-finding app aimed at university students.'/>
+                    <Project 
+                        pTitle='MyPiece Case Study' 
+                        pDescription='User experience & interface design project for a deal-finding app aimed at university students.'
+                        children={
+                            <img src= {project1}/>
+                        }
+                    />
+                    
                 </Link>
 
                 <Link to='/natureofthings' className="row-start-5 lg:row-start-4 col-start-1 lg:col-start-5 col-span-3 mx-10">
-                    <Project pTitle='The Nature Of Things' pDescription='Creative computation project exploring how everyday objects might behave unexpectedly in an alternate reality.'/>
+                    <Project 
+                        pTitle='The Nature Of Things' 
+                        pDescription='Creative computation project exploring how everyday objects might behave unexpectedly in an alternate reality.'
+                        children={
+                            <img src = {project2} />
+                        }
+                    />
                 </Link>
             </Grid>
             <div className='h-10 bg-white' id='space'></div>
             <Grid>    
                 <Link to='/cumulonimbus' className="row-start-1 lg:row-start-1 col-start-1 lg:col-start-2 col-span-3 mx-10 ">
-                    <Project pTitle='Cumulonimbus' pDescription='An interactive installation designed for display at Dawson college.'/>
+                    <Project 
+                        pTitle='Cumulonimbus' 
+                        pDescription='An interactive installation designed for display at Dawson college.'
+                        children={
+                            <img src = {project3} />
+                        }
+                    />
                 </Link>
 
                 <Link to='/graphics' className="row-start-2 lg:row-start-1 col-start-1 lg:col-start-5 col-span-3 mx-10">
-                    <Project pTitle='Assorted Graphics' pDescription="A collection of illustrations and logos I've designed while freelancing, or on personal time."/>
+                    <Project 
+                        pTitle='Assorted Graphics' 
+                        pDescription="A collection of illustrations and logos I've designed while freelancing, or on personal time."
+                        children={
+                            <img src = {project4} />
+                        }
+                    />
                 </Link>
 
                 <Link to='/cannabislaws' className="row-start-3 lg:row-start-2 col-start-1 lg:col-start-2 col-span-3 mx-10">
-                    <Project pTitle='Cannabis Laws' pDescription='Data-Visualization project aimed at informing the public about cannabis bylaws in Montreal following legalization.'/>
+                    <Project 
+                        pTitle='Cannabis Laws' 
+                        pDescription='Data-Visualization project aimed at informing the public about cannabis bylaws in Montreal following legalization.'
+                        children={
+                            <img src = {project5} />
+                        }
+                    />
                 </Link>
 
                 <Link to='/#top' className='font-serif text-3xl lg:col-start-4 row-start-5 col-span-3 lg:col-span-2 text-center my-20' data-sal="slide-up" data-sal-delay="0" data-sal-easing="ease-in-out-quad" data-sal-duration="200">
