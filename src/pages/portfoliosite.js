@@ -5,11 +5,7 @@ import Layout from "../components/layout"
 import Grid from "../components/grid"
 import Header from "../components/header"
 import Footer from "../components/footer"
-import sal from 'sal.js'
 
-sal({
-    once: true,
-});
 
 function mypiece (props) {
 

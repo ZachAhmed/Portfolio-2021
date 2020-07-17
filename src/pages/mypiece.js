@@ -6,11 +6,6 @@ import Grid from "../components/grid"
 import Header from "../components/header"
 import Footer from "../components/footer"
 import Img from 'gatsby'
-import sal from 'sal.js'
-
-sal({
-    once: true,
-});
 
 function mypiece (props) {
 

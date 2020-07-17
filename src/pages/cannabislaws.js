@@ -9,17 +9,11 @@ import Footer from "../components/footer"
 import ProjectText from '../components/projectText'
 import Highlight from '../components/projectHighlight'
 import Info from "../components/projectInfo"
-import sal from "sal.js"
+
 
 // picture imports
 import pic1 from "../images/mtl.png"
 import pic2 from "../images/a2.png"
-
-
-
-sal({
-    once: true,
-});
 
 // Project Page Flow
 

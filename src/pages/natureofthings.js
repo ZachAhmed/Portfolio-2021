@@ -9,16 +9,11 @@ import ProjectText from '../components/projectText'
 import Highlight from '../components/projectHighlight'
 import Info from "../components/projectInfo"
 
-import sal from "sal.js"
 
 import pic1 from "../images/not1.jpg"
 import pic2 from "../images/not2.png"
 import pic3 from "../images/not3.png"
 
-
-sal({
-    once: true,
-});
 
 // Project Page Flow
 

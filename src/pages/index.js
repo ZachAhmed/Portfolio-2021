@@ -6,7 +6,6 @@ import Project from "../components/project"
 import Grid from "../components/grid"
 import Header from "../components/header"
 import Footer from "../components/footer"
-import sal from "sal.js"
 import AOS from "aos"
 
 import 'aos/dist/aos.css';
@@ -16,9 +15,6 @@ import project2 from "../images/not2.png"
 import project3 from "../images/image3.jpg"
 import project4 from "../images/garden.png"
 import project5 from "../images/a2.png"
-
-
-sal();
 
 // {data.piece.childImageSharp.fluid}
 // <Img fluid={data.image1.childImageSharp.fluid}
@@ -31,11 +27,11 @@ const Index = () => {
             
         }
     },[])
+
     return(
         <Layout>
             
             <Helmet>
-                <script src={withPrefix('script.js')} type="text/javascript" />
                 <meta charSet="utf-8" />
                 <title>Zach Ahmed</title>
                 <link rel="canonical" href="http://zachahmed.com" />
@@ -44,7 +40,7 @@ const Index = () => {
                 <Header></Header>
                 <div className='text-left mx-10 mt-10 col-start-1 col-span-3 row-start-2 text-blue md:col-start-2 md:col-span-5'>
                     <h1 className='font-serif text-5xl animated' data-aos="fade" data-aos-duration="0">Zach Ahmed</h1>
-                    <h3 className='font-sans-serif text-2xl mt-5' data-aos="fade" data-aos-duration="0">Is a digital designer from Montréal, Québec. Passionate about designing intuitive user-interfaces, and UX design.</h3>
+                    <h3 className='font-sans-serif text-2xl mt-5 lg:mb-24' data-aos="fade" data-aos-duration="0">Is a digital designer from Montréal, Québec. Passionate about designing intuitive user-interfaces, and UX design.</h3>
                 </div>
 
                 <Link to='/mypiece' className="row-start-4 col-start-1 col-span-3 mx-10 md:col-start-2 ">

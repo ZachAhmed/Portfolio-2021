@@ -9,18 +9,12 @@ import ProjectText from '../components/projectText'
 import Highlight from '../components/projectHighlight'
 import Info from "../components/projectInfo"
 
-import sal from "sal.js"
 
 import lighthouse from "../images/pcove_phone.png"
 import garden from "../images/garden.png"
 import barLogo from "../images/bar_logo.png"
 import click from "../images/clicklogo.png"
 
-
-
-sal({
-    once: true,
-});
 
 // Project Page Flow
 

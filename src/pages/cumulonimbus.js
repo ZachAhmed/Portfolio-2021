@@ -5,7 +5,6 @@ import Layout from "../components/layout"
 import Grid from "../components/grid"
 import Header from "../components/header"
 import Footer from "../components/footer"
-import sal from "sal.js"
 import ProjectText from '../components/projectText'
 import Highlight from '../components/projectHighlight'
 import Info from "../components/projectInfo"
@@ -14,8 +13,6 @@ import pic1 from "../images/image1.jpg"
 import pic2 from "../images/image2.jpg"
 import pic3 from "../images/image3.jpg"
 
-
-sal();
 
 // Project Page Flow
 
