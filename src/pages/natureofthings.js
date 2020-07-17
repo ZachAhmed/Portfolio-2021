@@ -32,7 +32,7 @@ function nature (props) {
         <Layout>
             <Grid>
                 <Header staticName="Zach Ahmed"></Header>
-                <div className="row-start-1 row-span-1 col-span-3 lg:col-span-4 mx-5 lg:mx-0 mt-20 lg:col-start-3" data-sal="slide-up" data-sal-duration='800' data-sal-easing='ease-in-out-sine'>
+                <div className="row-start-1 row-span-1 col-span-3 lg:col-span-4 mx-5 lg:mx-0 mt-20 lg:col-start-3" data-aos="slide-up" data-aos-duration='800' data-aos-easing='ease-in-out-sine'>
                     <Info
                         title='The Nature of Things'
                         purpose='University Final Project'
@@ -45,7 +45,7 @@ function nature (props) {
                 </div>
                 
 
-                <div className="row-start-2 row-span-1 col-span-3 lg:col-span-4 mx-5 lg:mx-0 lg:col-start-3" data-sal="slide-up" data-sal-duration='800' data-sal-easing='ease-in-out-sine'>
+                <div className="row-start-2 row-span-1 col-span-3 lg:col-span-4 mx-5 lg:mx-0 lg:col-start-3" data-aos="slide-up" data-aos-duration='800' data-aos-easing='ease-in-out-sine'>
                     <ProjectText 
                         bigtext="Creative Computation / Interaction Design project exploring how everyday objects might behave unexpectedly in an alternate reality."
                         bodytext="This installation was one of two final projects required to graduate from the Computation Arts program. My partner Patrick and I wanted to to explore how everyday objects behave in real life, and contrast it with how they might behave in a digital realm. Viewers of the installation were invited to approach a black pedestal, which had several objects laid out in front of it and to place one of them upon the pedestal. Once an object was placed on the pedestal, a video would be projected showing an everyday object behaving in extraordinary ways."
@@ -76,7 +76,7 @@ function nature (props) {
                 </div>
                 
                 <div className="mx-5 lg:mx-0 row-start-2 col-span-3 lg:col-span-4 lg:col-start-3">
-                    <h3 className="font-semibold lg:text-2xl" data-sal="slide-up" data-sal-easing='ease-in-out-sine'>Process</h3>
+                    <h3 className="font-semibold lg:text-2xl" data-aos="slide-up" data-aos-easing='ease-in-out-sine'>Process</h3>
                     <p className="mt-3 lg:text-xl">Our process started with researching different artists and installations for inspiration and to see what kind of work other people had done within the domain we wanted to work in. We came upon the work of Albert Omoss who works with 3D models and gives them strange effects. After that we looked at what kind of interactions and what kind of interface our viewers would interact with. We decided on sticking with a simple interaction to encourage the viewer to explore and play with minimal explanation to keep the effects a surprise. To facilitate simple interactivity, we opted to use an arduino paired with an RFID shield and readable RFID tags that we would embed within the objects that we wanted to use. </p>
                     <p className="mt-3 lg:text-xl">Once the code was mostly completed, we got to work on building the pedestal which would house the arduino and sensors, as well as some leds for decoration and feel. The pedestal was a simple square column which could house a 14” laptop and the arduino. It stood at about 4” tall and was made out of recycled plywood that was painted black.</p>
                     <p className="mt-3 lg:text-xl">From there we got to work on picking what objects we wanted to present. Patrick looked into the 3D modelling piece, and nCloth while I started to work on the arduino code. During programming the arduino, the biggest challenge that I faced was integrating it with Processing for video playback. </p>

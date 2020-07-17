@@ -9,10 +9,11 @@ export default function HTML(props) {
         <meta httpEquiv="x-ua-compatible" content="ie=edge" />
         <meta
           name="viewport"
-          content="width=device-width, initial-scale=1, shrink-to-fit=no"
+          content="width=device-width, initial-scale=1, shrink-to-fit=no" 
         />
         {props.headComponents}
-        <link rel="stylesheet" href="https://use.typekit.net/vnw3qsl.css"></link>
+        <link rel="stylesheet" href="https://use.typekit.net/vnw3qsl.css" />
+        <link  type="text/css" href="https://unpkg.com/aos@next/dist/aos.css" />
       </head>
       <body {...props.bodyAttributes}>
         {props.preBodyComponents}
@@ -22,6 +23,10 @@ export default function HTML(props) {
           dangerouslySetInnerHTML={{ __html: props.body }}
         />
         {props.postBodyComponents}
+        <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+        <script>
+          AOS.init();
+        </script>
       </body>
     </html>
   )

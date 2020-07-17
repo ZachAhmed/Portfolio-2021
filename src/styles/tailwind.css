@@ -53,9 +53,9 @@ figcaption{
 .bg-slide {
     background-size: 100% 200%;
     background-image: linear-gradient(to top, theme('colors.blue') 50%, theme('colors.white') 50%);
-    -webkit-transition: background-position 1s;
-    -moz-transition: background-position 1s;
-    transition: background-position 1s, color 1s;
+    -webkit-transition: background-position .4s;
+    -moz-transition: background-position .4s;
+    transition: background-position .4s, color .4s;
     color: theme('colors.blue');
 }
 

@@ -1,5 +1,5 @@
-import React from "react"
-import { withPrefix, Link, useStaticQuery, graphql} from "gatsby"
+import React, {useEffect, useState} from "react"
+import { withPrefix, Link} from "gatsby"
 import { Helmet } from "react-helmet"
 import Layout from "../components/layout"
 import Project from "../components/project"
@@ -7,6 +7,9 @@ import Grid from "../components/grid"
 import Header from "../components/header"
 import Footer from "../components/footer"
 import sal from "sal.js"
+import AOS from "aos"
+
+import 'aos/dist/aos.css';
 
 import project1 from "../images/mp_thumb.png"
 import project2 from "../images/not2.png"
@@ -20,8 +23,14 @@ sal();
 // {data.piece.childImageSharp.fluid}
 // <Img fluid={data.image1.childImageSharp.fluid}
 
-export default function Index(){
-
+const Index = () => {
+    
+    useEffect(() => {
+        AOS.init({});
+        return () => {
+            
+        }
+    },[])
     return(
         <Layout>
             
@@ -34,8 +43,8 @@ export default function Index(){
             <Grid>
                 <Header></Header>
                 <div className='text-left mx-10 mt-10 col-start-1 col-span-3 row-start-2 text-blue md:col-start-2 md:col-span-5'>
-                    <h1 className='font-serif text-5xl animated' data-sal="fade" data-sal-duration="0">Zach Ahmed</h1>
-                    <h3 className='font-sans-serif text-2xl mt-5' data-sal="fade" data-sal-duration="0">Is a digital designer from Montréal, Québec. Passionate about designing intuitive user-interfaces, and UX design.</h3>
+                    <h1 className='font-serif text-5xl animated' data-aos="fade" data-aos-duration="0">Zach Ahmed</h1>
+                    <h3 className='font-sans-serif text-2xl mt-5' data-aos="fade" data-aos-duration="0">Is a digital designer from Montréal, Québec. Passionate about designing intuitive user-interfaces, and UX design.</h3>
                 </div>
 
                 <Link to='/mypiece' className="row-start-4 col-start-1 col-span-3 mx-10 md:col-start-2 ">
@@ -43,7 +52,7 @@ export default function Index(){
                         pTitle='MyPiece Case Study' 
                         pDescription='User experience & interface design project for a deal-finding app aimed at university students.'
                         children={
-                            <img src= {project1}/>
+                            <img src= {project1} alt="This is a project"/>
                         }
                     />
                     
@@ -54,7 +63,7 @@ export default function Index(){
                         pTitle='The Nature Of Things' 
                         pDescription='Creative computation project exploring how everyday objects might behave unexpectedly in an alternate reality.'
                         children={
-                            <img src = {project2} />
+                            <img src = {project2} alt="This is a project" />
                         }
                     />
                 </Link>
@@ -66,7 +75,7 @@ export default function Index(){
                         pTitle='Cumulonimbus' 
                         pDescription='An interactive installation designed for display at Dawson college.'
                         children={
-                            <img src = {project3} />
+                            <img src = {project3} alt="This is a project" />
                         }
                     />
                 </Link>
@@ -76,7 +85,7 @@ export default function Index(){
                         pTitle='Assorted Graphics' 
                         pDescription="A collection of illustrations and logos I've designed while freelancing, or on personal time."
                         children={
-                            <img src = {project4} />
+                            <img src = {project4} alt="This is a project" />
                         }
                     />
                 </Link>
@@ -86,16 +95,18 @@ export default function Index(){
                         pTitle='Cannabis Laws' 
                         pDescription='Data-Visualization project aimed at informing the public about cannabis bylaws in Montreal following legalization.'
                         children={
-                            <img src = {project5} />
+                            <img src = {project5} alt="This is a project" />
                         }
                     />
                 </Link>
 
-                <Link to='/#top' className='font-serif text-3xl lg:col-start-4 row-start-5 col-span-3 lg:col-span-2 text-center my-20' data-sal="slide-up" data-sal-delay="0" data-sal-easing="ease-in-out-quad" data-sal-duration="200">
+                <Link to='/#top' className='font-serif text-3xl lg:col-start-4 row-start-5 col-span-3 lg:col-span-2 text-center my-20' data-aos="slide-up" data-aos-delay="0" data-aos-easing="ease-in-out-quad" data-aos-duration="200">
                     <span className='un text-gray-500'>Back to top</span>
                 </Link>
             </Grid>
             <Footer></Footer>
-        </Layout>       
+        </Layout>
     )
 }
+
+export default Index;
