@@ -7,19 +7,19 @@ import Grid from "../components/grid"
 import Header from "../components/header"
 import Footer from "../components/footer"
 
-import project1 from "../images/mp_thumb.png"
 
 export default function Index(){
     return(
         <Layout>
             <Helmet>
                 <script src={withPrefix('script.js')} type="text/javascript" />
+                
             </Helmet>
             <Grid>
                 <Header></Header>
                 <div className='text-left mx-10 mt-10 col-start-1 col-span-3 row-start-2 text-blue md:col-start-2 md:col-span-5'>
                     <h1 className='font-serif text-5xl animated' data-sal="fade" data-sal-duration="0">Zach Ahmed</h1>
-                    <h3 className='font-sans-serif text-2xl mt-5' data-sal="fade" data-sal-duration="0">Is a digital designer from Montréal, Québec. Passionate about designing intuitive user-interfaces, and UX design.</h3>
+                    <h3 className='font-sans-serif text-2xl mt-5' data-aos="fade-up" data-aos-duration="800" data-aos-easing="ease-in-out-quad">Is a digital designer from Montréal, Québec. Passionate about designing intuitive user-interfaces, and UX design.</h3>
                 </div>
 
                 <Link to='/mypiece' className="row-start-4 col-start-1 col-span-3 mx-10 md:col-start-2 ">

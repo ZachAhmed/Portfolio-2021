@@ -1,7 +1,11 @@
 import React from "react"
 import PropTypes from "prop-types"
+import AOS from "aos"
+import "aos/dist/aos.css"
 
 export default function HTML(props) {
+
+  
   return (
     <html {...props.htmlAttributes}>
       <head>
@@ -13,6 +17,7 @@ export default function HTML(props) {
         />
         {props.headComponents}
         <link rel="stylesheet" href="https://use.typekit.net/vnw3qsl.css"></link>
+        <link type="text/css" href="bower_components/aos/dist/aos.css" />
       </head>
       <body {...props.bodyAttributes}>
         {props.preBodyComponents}
@@ -22,10 +27,13 @@ export default function HTML(props) {
           dangerouslySetInnerHTML={{ __html: props.body }}
         />
         {props.postBodyComponents}
+        <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
       </body>
     </html>
   )
 }
+
+
 
 HTML.propTypes = {
   htmlAttributes: PropTypes.object,
