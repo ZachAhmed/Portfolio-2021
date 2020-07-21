@@ -63,7 +63,7 @@ function Project (props) {
   console.log(data);
 
   return(
-    <div className="border-6 border-blue rounded-md p-6 min-h-205 haha md:p-3 bg-slide overflow-hidden" data-aos="slide-up" data-aos-delay="0" data-aos-easing="ease-in-out-quad" data-aos-duration="400">
+    <div className="border-6 border-blue rounded-md p-6 min-h-205 haha md:p-3 bg-slide overflow-hidden" data-aos="fade-up" data-aos-delay="100" data-aos-easing="ease-in-out-quad" data-aos-duration="500">
       <div className=" lg:h-32">
         <h1 className="font-serif text-3xl ">{props.pTitle}</h1>
         <p className="font-sans-serif text-xl mt-4 leading-snug">{props.pDescription}</p>

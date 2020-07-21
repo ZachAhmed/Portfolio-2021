@@ -46,9 +46,6 @@ figcaption{
     border-width: 5px;
 }
 
-.bg-lavender{
-    background-color: lavender;
-}
 
 .bg-slide {
     background-size: 100% 200%;
@@ -73,8 +70,7 @@ figcaption{
     background-repeat: no-repeat;
     transition:
     background-size 0.3s,
-    background-position 1s 0.3s,
-    color 1s; /*change after the size immediately*/
+    background-position 1s 0.3s, color 1s; /*change after the size immediately*/
     color: theme('colors.gray');
 }
 

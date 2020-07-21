@@ -27,7 +27,7 @@ function mypiece (props) {
         <Layout>
             <Grid>
                 <Header staticName="Zach Ahmed"></Header>
-                <div className="row-start-1 row-span-1 col-span-3 lg:col-span-4 mx-5 lg:mx-0 mt-20 lg:col-start-3" data-aos="slide-up" data-aos-duration='800' data-aos-easing='ease-in-out-sine'>
+                <div className="row-start-1 row-span-1 col-span-3 lg:col-span-4 mx-5 lg:mx-0 mt-20 lg:col-start-3" data-aos="fade-up" data-aos-duration='800' data-aos-easing='ease-in-out-sine'>
                     <Info
                         title='Montreal Cannabis Laws'
                         purpose='Data-visualization Project'
@@ -55,7 +55,7 @@ function mypiece (props) {
                 </div>
 
                 <div className="mx-5 lg:mx-0 row-start-2 col-span-3 lg:col-span-4 lg:col-start-3">
-                    <h3 className="font-semibold lg:text-2xl" data-aos="slide-up" data-aos-easing='ease-in-out-sine'>Process</h3>
+                    <h3 className="font-semibold lg:text-2xl" data-aos="fade-up" data-aos-easing='ease-in-out-sine'>Process</h3>
                     <p className="mt-3 lg:text-xl">Since this project had to be about a current event, I wanted to stay local. So I started looking for interesting things happening around Montreal. The biggest discussion that everybody wanted to be a part of was the legalization of recreational cannabis. Based on my research it seemed that a lot of people were concerned or confused about the laws, particularly in Montreal, because each borough had the control to make their own by-laws regarding how they wanted to control the substance.</p>
                     <p className="mt-3 lg:text-xl">With that information I decided that I wanted to take an educational route and to inform the public about what new laws they may or may not be subject to. From there I started looking into what laws the Quebec government had put in place, and researching what laws the various boroughs of montreal had planned to put in place. </p>
                     <p className="mt-3 lg:text-xl">Once I gathered my data, I made an SVG map of Montreal and each individual borough so that I could interact with them on the web. </p>
