@@ -1,7 +1,11 @@
 import React from "react"
 import PropTypes from "prop-types"
+import AOS from "aos"
+import "aos/dist/aos.css"
 
 export default function HTML(props) {
+
+  
   return (
     <html {...props.htmlAttributes}>
       <head>
@@ -31,6 +35,8 @@ export default function HTML(props) {
     </html>
   )
 }
+
+
 
 HTML.propTypes = {
   htmlAttributes: PropTypes.object,
