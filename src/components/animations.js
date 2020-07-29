@@ -1,7 +1,7 @@
 import React from "react"
 import { withPrefix, Link } from "gatsby"
 import AOS from "aos"
-import Index from "."
+import Index from "../pages"
 
 class Animations extends React.Component{
     componentDidMount = () => {
@@ -16,3 +16,5 @@ class Animations extends React.Component{
         this.aos.refresh();
     }
 }
+
+export default Animations

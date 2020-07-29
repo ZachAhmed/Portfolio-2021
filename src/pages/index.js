@@ -21,7 +21,6 @@ import project5 from "../images/a2.png"
 
 export default function Index (props) {
     
-
     return(
             <Layout>
                 
