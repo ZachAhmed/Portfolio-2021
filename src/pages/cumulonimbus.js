@@ -2,7 +2,7 @@ import React from "react"
 import { withPrefix, Link } from "gatsby"
 import { Helmet } from "react-helmet"
 import Layout from "../components/layout"
-import Grid from "../components/Grid"
+import Grid from "../components/grid"
 import Header from "../components/header"
 import Footer from "../components/footer"
 import ProjectText from '../components/projectText'
