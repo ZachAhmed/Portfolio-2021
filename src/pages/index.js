@@ -34,7 +34,7 @@ export default function Index (props) {
                 <Grid>
                     <Header></Header>
                     <div className='text-left mx-10 mt-10 col-start-1 col-span-3 row-start-2 text-blue md:col-start-2 md:col-span-5'>
-                        <h1 className='font-serif text-5xl animated'>Zach Ahmed</h1>
+                        <h1 className='font-serif text-5xl animated' data-aos="fade-up" data-aos-duration="400" data-aos-delay="200" data-aos-easing="ease-in-out-quad">Zach Ahmed</h1>
                         <h3 className='font-sans-serif text-2xl mt-5 lg:mb-24'>Is a digital designer from Montréal, Québec. Passionate about designing intuitive user-interfaces, and UX design.</h3>
                     </div>
 
