@@ -21,6 +21,7 @@ import project5 from "../images/a2.png"
 
 export default function Index (props) {
     
+
     return(
             <Layout>
                 
@@ -33,8 +34,8 @@ export default function Index (props) {
                 <Grid>
                     <Header></Header>
                     <div className='text-left mx-10 mt-10 col-start-1 col-span-3 row-start-2 text-blue md:col-start-2 md:col-span-5'>
-                        <h1 className='font-serif text-5xl animated' data-aos="fade" data-aos-duration="600">Zach Ahmed</h1>
-                        <h3 className='font-sans-serif text-2xl mt-5 lg:mb-24' data-aos="fade" data-aos-duration="0">Is a digital designer from Montréal, Québec. Passionate about designing intuitive user-interfaces, and UX design.</h3>
+                        <h1 className='font-serif text-5xl animated'>Zach Ahmed</h1>
+                        <h3 className='font-sans-serif text-2xl mt-5 lg:mb-24'>Is a digital designer from Montréal, Québec. Passionate about designing intuitive user-interfaces, and UX design.</h3>
                     </div>
 
                     <Link to='/mypiece' className="row-start-4 col-start-1 col-span-3 mx-10 md:col-start-2 ">
@@ -90,7 +91,7 @@ export default function Index (props) {
                         />
                     </Link>
 
-                    <Link to='/#top' className='font-serif text-3xl lg:col-start-4 row-start-5 col-span-3 lg:col-span-2 text-center my-20' data-aos="fade" data-aos-delay="0" data-aos-easing="ease-in-out-quad" data-aos-duration="400">
+                    <Link to='/#top' className='font-serif text-3xl lg:col-start-4 row-start-5 col-span-3 lg:col-span-2 text-center my-20'>
                         <span className='un text-gray-500'>Back to top</span>
                     </Link>
                 </Grid>

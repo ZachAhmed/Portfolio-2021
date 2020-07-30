@@ -28,7 +28,7 @@ function graphics (props) {
         <Layout>
             <Grid>
                 <Header staticName="Zach Ahmed"></Header>
-                <div className="row-start-1 row-span-1 col-span-3 lg:col-span-4 mx-5 lg:mx-0 mt-20 lg:col-start-3" data-aos="fade-up" data-aos-duration='800' data-aos-easing='ease-in-out-sine'>
+                <div className="row-start-1 row-span-1 col-span-3 lg:col-span-4 mx-5 lg:mx-0 mt-20 lg:col-start-3">
                     <Info
                         title='Assorted Graphics'
                         purpose='Freelance / Personal projects'
@@ -39,7 +39,7 @@ function graphics (props) {
                 </div>
                 
 
-                <div className="flex justify-center row-start-2 row-span-1 col-span-3 lg:col-span-4 mx-5 lg:mx-0 lg:col-start-3" data-aos="fade-up" data-aos-duration='800' data-aos-easing='ease-in-out-sine'>
+                <div className="flex justify-center row-start-2 row-span-1 col-span-3 lg:col-span-4 mx-5 lg:mx-0 lg:col-start-3">
                     <div className="w-full lg:w-3/5 h-auto">
                         <img src={lighthouse} alt="lighthouse vector"/>
                         <figcaption> Illustration made for a poster.</figcaption>
