@@ -1,7 +1,4 @@
 import React from "react"
-import { withPrefix, Link } from "gatsby"
-import AOS from "aos"
-import Index from "../pages"
 
 class Animations extends React.Component{
     componentDidMount = () => {
