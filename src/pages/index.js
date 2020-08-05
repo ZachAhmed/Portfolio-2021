@@ -28,7 +28,7 @@ export default function Index (props) {
                 <Helmet>
                     <meta charSet="utf-8" />
                     <title>Zach Ahmed</title>
-                    <link rel="canonical" href="http://zachahmed.com" />
+                    <link rel="canonical" href="https://zachahmed.com" />
                     <script src={withPrefix('script.js')} type="text/javascript" />
                 </Helmet>
                 <Grid>
