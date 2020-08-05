@@ -86,7 +86,7 @@ function cloud (props) {
                         p2="We got great feedback from our profs, and other faculty in the school, and it even won a 'best in class' award, but there's always room for improvement. If I were to do it again with the skills that I have now, I would make the intraction more complex rather than touching a metal washer and having the same outcome most of the time."/>
                 </div>
                 <div className='row-start-4 col-span-3 lg:col-span-4 lg:col-start-3'>
-                    <iframe className="mr-5 lg:mr-0 mb-8 w-full col-span-3 lg:col-span-4 lg:col-start-3 lg:rounded-md" height="400" src="https://www.youtube.com/embed/JWNgJDIuRvk" frameBorder="0" allowfullscreen></iframe>
+                    <iframe className="mr-5 lg:mr-0 mb-8 w-full col-span-3 lg:col-span-4 lg:col-start-3 lg:rounded-md" height="400" src="https://www.youtube.com/embed/JWNgJDIuRvk" frameBorder="0" allowFullScreen></iframe>
                 </div>
             </Grid>
             <Footer></Footer>

@@ -29,11 +29,11 @@ function Mypiece (props) {
                 <Header staticName="Zach Ahmed"></Header>
                 <div className="row-start-1 row-span-1 col-span-3 lg:col-span-4 mx-5 lg:mx-0 mt-20 lg:col-start-3" >
                     <Info
-                        title='Cumulonimbus'
-                        purpose='CEGEP final project'
-                        timeline=' Jan 2015 - May 2015'
-                        responsibilities='Interaction Design / Arduino Programming / Circuitry / Installation Design'
-                        team='Zach Ahmed / Tiara Bucci / Kyle Gapulan / Matthiew Vaccariello '
+                        title='Mypiece case study'
+                        purpose='Contracted project'
+                        timeline=' March 2016 - March 2017'
+                        responsibilities='Wireframing / Prototyping / Product design / Mockups'
+                        team='Zach Ahmed / Ryan Angelo'
                     />
                     <img className="mt-10 col-span-3" src={pic3} alt="Our cloud on display"/>
                     <figcaption className="text-sm">Our cloud on display</figcaption>
@@ -42,8 +42,8 @@ function Mypiece (props) {
 
                 <div className="row-start-2 row-span-1 col-span-3 lg:col-span-4 mx-5 lg:mx-0 lg:col-start-3">
                     <ProjectText 
-                        bigtext="Creative Computation / Interaction Design project based around interacting with something that is usually intangible"
-                        bodytext="This interactive sculpture was my final project for the Interactive Media Arts program at Dawson College. My team wanted to make an interactive sculpture that would engage viewers in a public space by being interactive and playful."
+                        bigtext="Project done for the Mypiece team to improve the user experience of the app and to design features to start generating income."
+                        bodytext="The mypiece app is a deal-finding app aimed at students and professionals to help them get deals on food. The from the app, the users could find exclusive deals from local restaurants and redeem them through the app when at the cash, like a coupon. The app was popular among students, because of cheap food, but it had low ratings on the Google Play Store and App Store."
                     />
                 </div>
                 
@@ -51,14 +51,17 @@ function Mypiece (props) {
                 <div className='row-start-3 col-span-3 lg:col-span-4 lg:col-start-3'>
                     <Highlight
                         heading='The Challenge'
-                        p1='The brief was to come up with a project that was interactive or recative to be put on display somewhere on campus for students to view or interact with.'
+                        p1='Because of the bad reviews, we had to improve user engagement by the revamping the experience. The parts of the app that I wanted to focus on were the redeption process, and the main page layout.
+                        The project owners also wanted me to help design a feature that would start generating revenue for them.'
                     />
                 </div>
 
                 <div className="mx-5 lg:mx-0 row-start-4 col-span-3 lg:col-span-4 lg:col-start-3" >
                     <ProjectText
                         bigtext="Constraints"
-                        bodytext="Being the final for an interactive arts program, the only constraints that were given to us were that the project had to be interactive and leverage some kind of technology for it to be considered for display. We also discovered that our budget was another constraint since the "
+                        bodytext="Because the company was so small, I had to work around a lot of contraints. The biggest ones were man-power and budget."
+                        bodytext2="The product team consisted of me and the product owner, who isn't a designer, so while it was all collaborative the process was slow."
+                        bodytext3="The team's budget was hard to deal with because it limited our ability to research and test our users. To get around this, we offered to pay the users that we spoke to in food vouchers instead of money. "
                     />
                 </div>
             </Grid>
