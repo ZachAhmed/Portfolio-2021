@@ -10,9 +10,15 @@ import Highlight from '../components/projectHighlight'
 import Info from "../components/projectInfo"
 
 
-import pic1 from "../images/image1.jpg"
-import pic2 from "../images/image2.jpg"
-import pic3 from "../images/image3.jpg"
+import account from "../images/mp_account.png"
+import accountreq from "../images/mp_accountreq.png"
+import checkout from "../images/mp_checkout.png"
+import deal from "../images/mp_deal.png"
+import purchases from "../images/mp_mypurchases.png"
+import order from "../images/mp_order.png"
+import order_flow from "../images/mp_order-flow.png"
+import info from "../images/mp_payinfo.png"
+
 
 
 // Project Page Flow
@@ -35,7 +41,7 @@ function Mypiece (props) {
                         responsibilities='Wireframing / Prototyping / Product design / Mockups'
                         team='Zach Ahmed / Ryan Angelo'
                     />
-                    <img className="mt-10 col-span-3" src={pic3} alt="Our cloud on display"/>
+                    <img className="mt-10 col-span-3" src={account} alt="Our cloud on display"/>
                     <figcaption className="text-sm">Our cloud on display</figcaption>
                 </div>
                 
@@ -61,7 +67,7 @@ function Mypiece (props) {
                         bigtext="Constraints"
                         bodytext="Because the company was so small, I had to work around a lot of contraints. The biggest ones were man-power and budget."
                         bodytext2="The product team consisted of me and the product owner, who isn't a designer, so while it was all collaborative the process was slow."
-                        bodytext3="The team's budget was hard to work with because it limited our ability to research and test our users, and to get good developers. To get around this, we offered to pay the users that we interviewed to in food vouchers instead of money. The other effect that that had was that we didn't have very much data to go off of, so we iterated based on a lot of internal testing with other people around the office. "
+                        bodytext3="Because of the constrained budget, we had limited access to users to interview for testing and research purposes, but we managed to get a couple people in by offering them free food vouchers. The project managers also decided to outsource most of the programming because of the lower cost. In the end it was detrimental to the quality of the app with a lot of android users complaining about the app not working on their devices."
                     />
                 </div>
             </Grid>
@@ -81,14 +87,14 @@ function Mypiece (props) {
                     <p className="mt-3 lg:text-xl">The flow of purchasing and redeeming a deal was the most significant change made to the app. As opposed to selecting a deal that a user wanted, and then handing their phone over to the cashier to be redeemed, users were now able to pay for their food through the app and head to the restaurant to pick it up. The cashier would only have to validate that the deal had been redeemed, so that it could not be used a second time.</p>
                     <p className="mt-3 lg:text-xl">The new purchasing flow would show the user all the important information that they would need to know like: exactly what the deal consisted of and the price, how much time they would have to redeem the deal, and a map of where the restaurant was located. Once the user decides that they want the deal, they would be directed to the order screen where they would choose how many of the item they want and if they would like to add any add-ons to their meal. The add ons were an important element in getting support from the restaurants, as they provided a way for them to sell smaller items without losing any margin.</p>
                     
-                    <img className="mt-10 col-span-3" src={pic1} alt="The skeleton of the cloud"/>
+                    <img className="mt-10 col-span-3" src={checkout} alt="The skeleton of the cloud"/>
                     <figcaption className="text-sm"> The build in progress.</figcaption>
                 </div>
                 <div className='row-start-3 col-span-3 lg:col-span-4 lg:col-start-3 lg:mb-10'>
                     <Highlight 
                         heading='Outcome' 
-                        p1="We successfully managed to make a better in-app experience, while also managing to generate income through the redemption of deals. From app reviews, we found that some users appreciated the change to require a credit card, while some others didn’t. We also found that although people seemed to be enjoying the overall experience more, the app wasn’t working well on some android devices." 
-                        p2="This project helped spark my passion for UX and UI design and forced me to learn a lot about designing for users while keeping business needs in mind. "/>
+                        p1="We successfully managed to make a better in-app experience, while also managing to generate income through the redemption of deals. From app reviews, we found that some users appreciated the change to require a credit card, while some others didn’t. We also found that although people seemed to be enjoying the overall experience more, the app didn't work well because of outsourced development." 
+                        p2="This project helped spark my passion for UX and UI design and forced me to learn a lot about designing for users while keeping business needs in mind. If I were to do it again, I would stress the importance of QA testing and the advantages of being able to design based off of qualitative data obtained through user research and testing."/>
                 </div>
                 <div className='row-start-4 col-span-3 lg:col-span-4 lg:col-start-3'>
                     <iframe className="mr-5 lg:mr-0 mb-8 w-full col-span-3 lg:col-span-4 lg:col-start-3 lg:rounded-md" height="400" src="https://www.youtube.com/embed/JWNgJDIuRvk" frameBorder="0" allowfullscreen></iframe>
