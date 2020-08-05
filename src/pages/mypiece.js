@@ -61,7 +61,7 @@ function Mypiece (props) {
                         bigtext="Constraints"
                         bodytext="Because the company was so small, I had to work around a lot of contraints. The biggest ones were man-power and budget."
                         bodytext2="The product team consisted of me and the product owner, who isn't a designer, so while it was all collaborative the process was slow."
-                        bodytext3="The team's budget was hard to deal with because it limited our ability to research and test our users. To get around this, we offered to pay the users that we spoke to in food vouchers instead of money. "
+                        bodytext3="The team's budget was hard to work with because it limited our ability to research and test our users, and to get good developers. To get around this, we offered to pay the users that we interviewed to in food vouchers instead of money. The other effect that that had was that we didn't have very much data to go off of, so we iterated based on a lot of internal testing with other people around the office. "
                     />
                 </div>
             </Grid>
@@ -69,7 +69,7 @@ function Mypiece (props) {
                 <div className="mx-5 lg:mt-10 lg:mx-0 row-start-1 col-span-3 lg:col-span-4 lg:col-start-3">
                     <ProjectText
                         bigtext='The Approach'
-                        bodytext='Since I was going to be doing the programming, we were going back and forth between either using a twitter API or an arduino to run the interactions. In the end we decided that we wanted our viewrs to be able to interct directly with our sculpture so we chose to use the arduino. With the arduino we wanted to make the cloud light up in various places to simulate lightning, and to do it we decided on using capacitive touch sensors to detect when a user would touch the sculpture.'
+                        bodytext='The way we were going to work was that I was going to propose changes to existing pages, and then get approval for them from the project manager and then iterate designs on them. For new pages, I would collaborate with the PM to figure out what tasks the user would need to perform on that page and then list the requirements for it. From there I made a list of requirements, and started iterating on wireframes and mockups.'
                     />
                 </div>
 
@@ -85,9 +85,8 @@ function Mypiece (props) {
                 <div className='row-start-3 col-span-3 lg:col-span-4 lg:col-start-3 lg:mb-10'>
                     <Highlight 
                         heading='Outcome' 
-                        p1="As a team we were really happy with how our cloud turned out. The scuplture worked as anticipated and was placed in the main cafeteria of Dawson college, where it got a lot of use 
-                        from students and faculty alike. I'm proud of this project because I learned a lot while making it and it was my first big project where I worked with the Arduino platform." 
-                        p2="We got great feedback from our profs, and other faculty in the school, and it even won a 'best in class' award, but there's always room for improvement. If I were to do it again with the skills that I have now, I would make the intraction more complex rather than touching a metal washer and having the same outcome most of the time."/>
+                        p1="We successfully managed to make a better in-app experience, while also managing to generate income through the redemption of deals. From app reviews, we found that some users appreciated the change to require a credit card, while some others didn’t. We also found that although people seemed to be enjoying the overall experience more, the app wasn’t working well on some android devices." 
+                        p2="This project helped spark my passion for UX and UI design and forced me to learn a lot about designing for users while keeping business needs in mind. "/>
                 </div>
                 <div className='row-start-4 col-span-3 lg:col-span-4 lg:col-start-3'>
                     <iframe className="mr-5 lg:mr-0 mb-8 w-full col-span-3 lg:col-span-4 lg:col-start-3 lg:rounded-md" height="400" src="https://www.youtube.com/embed/JWNgJDIuRvk" frameBorder="0" allowfullscreen></iframe>
