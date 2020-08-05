@@ -96,9 +96,6 @@ function Mypiece (props) {
                         p1="We successfully managed to make a better in-app experience, while also managing to generate income through the redemption of deals. From app reviews, we found that some users appreciated the change to require a credit card, while some others didn’t. We also found that although people seemed to be enjoying the overall experience more, the app didn't work well because of outsourced development." 
                         p2="This project helped spark my passion for UX and UI design and forced me to learn a lot about designing for users while keeping business needs in mind. If I were to do it again, I would stress the importance of QA testing and the advantages of being able to design based off of qualitative data obtained through user research and testing."/>
                 </div>
-                <div className='row-start-4 col-span-3 lg:col-span-4 lg:col-start-3'>
-                    <iframe className="mr-5 lg:mr-0 mb-8 w-full col-span-3 lg:col-span-4 lg:col-start-3 lg:rounded-md" height="400" src="https://www.youtube.com/embed/JWNgJDIuRvk" frameBorder="0" allowfullscreen></iframe>
-                </div>
             </Grid>
             <Footer></Footer>
         </Layout>
