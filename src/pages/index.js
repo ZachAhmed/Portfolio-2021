@@ -11,10 +11,10 @@ import AOS from "aos"
 import 'aos/dist/aos.css';
 
 import project1 from "../images/mp_thumb.png"
-import project2 from "../images/not2.png"
+import project2 from "../images/plane.svg"
 import project3 from "../images/image3.jpg"
-import project4 from "../images/garden.png"
-import project5 from "../images/a2.png"
+import project4 from "../images/garden.svg"
+import project5 from "../images/laws.svg"
 
 // {data.piece.childImageSharp.fluid}
 // <Img fluid={data.image1.childImageSharp.fluid}
