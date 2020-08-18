@@ -11,10 +11,10 @@ import AOS from "aos"
 import 'aos/dist/aos.css';
 
 import project1 from "../images/mp_thumb.png"
-import project2 from "../images/plane.svg"
+import project2 from "../images/plane_mock.png"
 import project3 from "../images/image3.jpg"
-import project4 from "../images/garden.svg"
-import project5 from "../images/laws.svg"
+import project4 from "../images/garden_mock.png"
+import project5 from "../images/laws_mock.png"
 
 // {data.piece.childImageSharp.fluid}
 // <Img fluid={data.image1.childImageSharp.fluid}
@@ -54,7 +54,7 @@ export default function Index (props) {
                             pTitle='The Nature Of Things' 
                             pDescription='Creative computation project exploring how everyday objects might behave unexpectedly in an alternate reality.'
                             children={
-                                <svg src = {project2} alt="This is a project" className="center"/>
+                                <img src = {project2} alt="This is a project" className="center"/>
                             }
                         />
                     </Link>
@@ -66,7 +66,7 @@ export default function Index (props) {
                             pTitle='Cumulonimbus' 
                             pDescription='An interactive installation designed for display at Dawson college.'
                             children={
-                                <svg src = {project3} alt="This is a project" className="center"/>
+                                <img src = {project3} alt="This is a project" className="center"/>
                             }
                         />
                     </Link>
@@ -76,7 +76,7 @@ export default function Index (props) {
                             pTitle='Assorted Graphics' 
                             pDescription="A collection of illustrations and logos I've designed while freelancing, or on personal time."
                             children={
-                                <svg src = {project4} alt="This is a project" className="center"/>
+                                <img src = {project4} alt="This is a project" className="center"/>
                             }
                         />
                     </Link>
