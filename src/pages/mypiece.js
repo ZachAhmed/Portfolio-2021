@@ -41,8 +41,8 @@ function Mypiece (props) {
                         responsibilities='Wireframing / Prototyping / Product design / Mockups'
                         team='Zach Ahmed / Ryan Angelo'
                     />
-                    <img className="mt-10 col-span-3" src={account} alt="Our cloud on display"/>
-                    <figcaption className="text-sm">Our cloud on display</figcaption>
+                    <img className="mt-10 col-span-3" src={account} alt="account page"/>
+                    <figcaption className="text-sm">The new account page.</figcaption>
                 </div>
                 
 
@@ -87,8 +87,8 @@ function Mypiece (props) {
                     <p className="mt-3 lg:text-xl">The flow of purchasing and redeeming a deal was the most significant change made to the app. As opposed to selecting a deal that a user wanted, and then handing their phone over to the cashier to be redeemed, users were now able to pay for their food through the app and head to the restaurant to pick it up. The cashier would only have to validate that the deal had been redeemed, so that it could not be used a second time.</p>
                     <p className="mt-3 lg:text-xl">The new purchasing flow would show the user all the important information that they would need to know like: exactly what the deal consisted of and the price, how much time they would have to redeem the deal, and a map of where the restaurant was located. Once the user decides that they want the deal, they would be directed to the order screen where they would choose how many of the item they want and if they would like to add any add-ons to their meal. The add ons were an important element in getting support from the restaurants, as they provided a way for them to sell smaller items without losing any margin.</p>
                     
-                    <img className="mt-10 col-span-3" src={checkout} alt="The skeleton of the cloud"/>
-                    <figcaption className="text-sm"> The build in progress.</figcaption>
+                    <img className="mt-10 col-span-3" src={checkout} alt="The checkout page"/>
+                    <figcaption className="text-sm"> The new checkout page</figcaption>
                 </div>
                 <div className='row-start-3 col-span-3 lg:col-span-4 lg:col-start-3 lg:mb-10'>
                     <Highlight 
