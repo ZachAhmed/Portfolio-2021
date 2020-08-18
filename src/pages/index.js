@@ -54,7 +54,7 @@ export default function Index (props) {
                             pTitle='The Nature Of Things' 
                             pDescription='Creative computation project exploring how everyday objects might behave unexpectedly in an alternate reality.'
                             children={
-                                <img src = {project2} alt="This is a project" className="center"/>
+                                <svg src = {project2} alt="This is a project" className="center"/>
                             }
                         />
                     </Link>
@@ -66,7 +66,7 @@ export default function Index (props) {
                             pTitle='Cumulonimbus' 
                             pDescription='An interactive installation designed for display at Dawson college.'
                             children={
-                                <img src = {project3} alt="This is a project" className="center"/>
+                                <svg src = {project3} alt="This is a project" className="center"/>
                             }
                         />
                     </Link>
@@ -76,7 +76,7 @@ export default function Index (props) {
                             pTitle='Assorted Graphics' 
                             pDescription="A collection of illustrations and logos I've designed while freelancing, or on personal time."
                             children={
-                                <img src = {project4} alt="This is a project" className="center"/>
+                                <svg src = {project4} alt="This is a project" className="center"/>
                             }
                         />
                     </Link>
