@@ -23,11 +23,21 @@ h3, h4, p{
 
 img{
     border-radius: 0.375rem;
+    max-width: 550px;
+    margin: auto;
+    width: 70%;
+}
+
+.center {
+    margin: auto;
+    width: 60%;
 }
 
 figcaption{
     margin-top: .5rem;
     font-size: 0.875rem;
+    margin: auto;
+    width: 60%;
 }
 
 ::-webkit-scrollbar{

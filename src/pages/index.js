@@ -43,7 +43,7 @@ export default function Index (props) {
                             pTitle='MyPiece Case Study' 
                             pDescription='User experience & interface design project for a deal-finding app aimed at university students.'
                             children={
-                                <img src= {project1} alt="This is a project"/>
+                                <img src= {project1} alt="This is a project" className="center"/>
                             }
                         />
                         
@@ -54,7 +54,7 @@ export default function Index (props) {
                             pTitle='The Nature Of Things' 
                             pDescription='Creative computation project exploring how everyday objects might behave unexpectedly in an alternate reality.'
                             children={
-                                <img src = {project2} alt="This is a project" />
+                                <img src = {project2} alt="This is a project" className="center"/>
                             }
                         />
                     </Link>
@@ -66,7 +66,7 @@ export default function Index (props) {
                             pTitle='Cumulonimbus' 
                             pDescription='An interactive installation designed for display at Dawson college.'
                             children={
-                                <img src = {project3} alt="This is a project" />
+                                <img src = {project3} alt="This is a project" className="center"/>
                             }
                         />
                     </Link>
@@ -76,7 +76,7 @@ export default function Index (props) {
                             pTitle='Assorted Graphics' 
                             pDescription="A collection of illustrations and logos I've designed while freelancing, or on personal time."
                             children={
-                                <img src = {project4} alt="This is a project" />
+                                <img src = {project4} alt="This is a project" className="center"/>
                             }
                         />
                     </Link>
@@ -86,7 +86,7 @@ export default function Index (props) {
                             pTitle='Cannabis Laws' 
                             pDescription='Data-Visualization project aimed at informing the public about cannabis bylaws in Montreal following legalization.'
                             children={
-                                <img src = {project5} alt="This is a project" />
+                                <img src = {project5} alt="This is a project" className="center"/>
                             }
                         />
                     </Link>

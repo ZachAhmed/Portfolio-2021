@@ -56,8 +56,8 @@ function graphics (props) {
                     </div>
                 </div>
                 
-                <div className="flex justify-center mx-5 lg:mx-0 mt-10 row-start-2 col-span-3 lg:col-span-4 lg:col-start-3">
-                    <div className="w-1/2 -mr-10 lg:ml-20">
+                <div className="flex justify-center mx-5 lg:mx-0 mt-10 row-start-2 col-span-3 lg:col-span-2 lg:col-start-4">
+                    <div className="w-1/2 -mr-10 lg:w-full">
                         <img src={barLogo} alt="playroom gaming bar logo" />
                     </div>
                 </div>
