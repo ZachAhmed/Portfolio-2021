@@ -12,7 +12,7 @@ import 'aos/dist/aos.css';
 
 import project1 from "../images/mp_thumb.png"
 import project2 from "../images/plane_mock.png"
-import project3 from "../images/image3.jpg"
+import project3 from "../images/cloud_icon.png"
 import project4 from "../images/garden_mock.png"
 import project5 from "../images/laws_mock.png"
 
