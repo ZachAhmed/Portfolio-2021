@@ -20,7 +20,7 @@ export default function Footer(props){
 
                 <div className='col-start-9 col-span-4 text-blue'>
                     <h3 className='text-xl font-serif text-left mb-1 hidden md:inline-block'> External Links</h3>
-                    <p className="mb-2 mr-5 font-sans-serif text-xl"> <a href="Zach_Ahmed_resume.pdf" target="_blank" className="hover:underline"> Resume</a> </p>
+                    <p className="mb-2 mr-5 font-sans-serif text-xl"> <a href="Zach_Ahmed_Resume_2021.pdf" target="_blank" className="hover:underline"> Resume</a> </p>
                     <p className="mb-2 mr-5 font-sans-serif text-xl"> <a className="hover:underline" href="https://www.linkedin.com/in/zachary-ahmed-design/" target='_blank'> LinkedIn</a></p>
                 </div>
             </div>
